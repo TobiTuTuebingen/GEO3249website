@@ -1,0 +1,23 @@
+project: 
+  type: website
+
+website:
+  navbar:
+    title: "Climate Change and Geohazards in the Swiss Alps"
+    left:
+      - text: "Case Studies"
+        href: "#case-studies"
+      - text: "Damage"
+        href: "#damage"
+      - text: "Hazards"
+        href: "#hazards"
+      - text: "Climate Change"
+        href: "#climate-change"
+      - text: "Mitigation and Adaption"
+        href: "#mitigation"
+      - text: "References"
+        href: "#references"
+
+format:
+  html:
+    theme: default

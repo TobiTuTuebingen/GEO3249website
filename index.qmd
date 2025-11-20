@@ -1,0 +1,183 @@
+---
+title: "Climate Change and Geohazards in the Swiss Alps"
+format: html
+---
+
+# Case Studies {#case-studies}
+![Landslide of Blatten 2025](https://il.srf.ch/images/?imageUrl=https:%2F%2Fdownload-media.srf.ch%2Fworld%2Fimage%2Fdefault%2F2025%2F07%2Fd519bb13422233727111535947.jpg&format=jpg&width=960)Fig. 1: Landslide of Blatten 2025.
+
+
+# Damage {#damage}
+Text …
+
+```{r setup, include = FALSE}
+library(ggplot2)
+library(tidyverse)
+library(plotly)
+
+rockfall <- read_csv("~/Documents/Studium/Fachinhalte/5. Semester GB/Natural Hazards/Assesments/RockFallData_SLF.csv")
+```
+
+```{r plot, echo=FALSE}
+rockfall_yearly <- rockfall %>%
+  group_by(year) %>%
+  summarise(count = n(),
+            volumeyear = sum(volume, na.rm = TRUE))
+  
+# 2. Skalierungsfaktor definieren
+scale_factor <- 1e-6   # Volumen in Millionen m³
+
+rockfall <- rockfall %>%
+  left_join(rockfall_yearly, by = "year")
+
+ggplot() +
+  geom_line(data = rockfall_yearly, 
+            aes(x = year, y = count), color = "blue") +
+  geom_jitter(data = rockfall,
+             aes(x = year, 
+                 y = 22,               
+                 color = permafrost),
+             alpha = 0.5,
+             size = 3,
+             height = 0.9) +
+  labs(
+    title = "Rockfall frequency, volume and permafrost",
+    x = "Year",
+    caption = "Ploting: Tobias Tuchel. Data from: Permos 2025"
+  ) +
+  geom_col(data = rockfall_yearly,
+           aes(x = year,
+           y = volumeyear*scale_factor),
+           fill = "grey",
+           width = 0.8,
+           alpha = 0.6)+
+  scale_y_continuous(
+    name = "Number of rockfalls",
+    sec.axis = sec_axis(~./scale_factor,
+                        name = "Yearly Rockfall Volume [m³]")
+  )+
+  theme_light()
+
+```
+
+
+# Hazards {#hazards}
+Text …
+
+# Climate Change {#climate-change}
+Since the 19th century the climate of the european alps is changing dramatical. Temperature increased around 2 °C celsius and is expected to increase further (Fig. Y). The speed and intensity of climate change outpaces global warming (Dumont et al. 2025). That has multiple effects:
+
+<!-- Gesamter Container -->
+<div style="position: relative; display: inline-block;">
+
+  <!-- Bild mit Image-Map -->
+  <img src="IMG_5211.jpeg" usemap="#hotmap" width="800">
+
+  <!-- Sichtbare Kreise (Overlay) -->
+  <!-- Kreis 1: PF -->
+  <div style="
+    position:absolute;
+    top:210px;
+    left:210px;
+    width:60px;
+    height:60px;
+    border:3px solid red;
+    border-radius:50%;
+    pointer-events:none;
+  "></div>
+
+  <!-- Kreis 2: Gletscher -->
+  <div style="
+    position:absolute;
+    top:160px;
+    left:420px;
+    width:60px;
+    height:60px;
+    border:3px solid blue;
+    border-radius:50%;
+    pointer-events:none;
+  "></div>
+
+  <!-- Kreis 3: Muren -->
+  <div style="
+    position:absolute;
+    top:330px;
+    left:390px;
+    width:60px;
+    height:60px;
+    border:3px solid green;
+    border-radius:50%;
+    pointer-events:none;
+  "></div>
+
+</div>
+
+<!-- Image-Map (Hotspots) -->
+<map name="hotmap">
+
+  <area shape="circle"
+        coords="0,0,0"
+        href="#"
+        onclick="event.preventDefault(); openDialog('muren');">
+
+  <area shape="circle"
+        coords="0,0,0"
+        href="#"
+        onclick="event.preventDefault(); openDialog('gletscher');">
+
+  <area shape="circle"
+        coords="430,360,30"
+        href="#"
+        onclick="event.preventDefault(); openDialog('muren');">
+
+</map>
+
+<!-- Dialogbereich -->
+<div id="dialog-container"
+     style="margin-top:20px; padding:15px; border:1px solid #ccc; display:none;">
+  <h3 id="dialog-title" style="margin-top:0;"></h3>
+  <p id="dialog-text"></p>
+</div>
+
+<!-- JavaScript für Dialog -->
+<script>
+function openDialog(type){
+  const texts = {
+    permafrost: {
+      title: "Permafrost",
+      text: " "
+    },
+    gletscher: {
+      title: "Gletscher",
+      text: "Instabile Gletscherseen können plötzlich ausbrechen (GLOFs)."
+    },
+    muren: {
+      title: "Muren",
+      text: "Schmelzender Permafrost destabilisiert Bergflanken."
+    }
+  };
+
+  document.getElementById('dialog-title').textContent = texts[type].title;
+  document.getElementById('dialog-text').textContent = texts[type].text;
+  document.getElementById('dialog-container').style.display = 'block';
+}
+</script>
+
+# Mitigation and Adaption {#mitigation}
+Text …
+
+
+![Bondo](https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/aktuelles/PresseDownloads/2017_10_27__O3A9902.jpg) Fig. X Rebuilding and Reparation after the Bondo Landslide of 2017. 
+
+
+
+
+# References
+
+## Figures and Pictures:
+* Fig. 1: SRF, 2025. Picture of Blatten Landslide [online]. Available from: https://il.srf.ch/images/?imageUrl=https:%2F%2Fdownload-media.srf.ch%2Fworld%2Fimage%2Fdefault%2F2025%2F07%2Fd519bb13422233727111535947.jpg&format=jpg&width=960  [16/11/2025]
+* Fig. X: Canton Grisons, 2025. Presse-Infos zum Bergsturz Piz Cengalo / Murgang Bondo. Available from: https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/aktuelles/PresseDownloads/2017_10_27__O3A9902.jpg [16/11/2025]
+
+## Literature
+
+

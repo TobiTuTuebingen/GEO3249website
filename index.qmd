@@ -115,20 +115,25 @@ Since the 19th century the climate of the european alps is changing dramatical. 
 <!-- Image-Map (Hotspots) -->
 <map name="hotmap">
 
+<map name="hotmap">
+  <!-- Kreis 1 -->
   <area shape="circle"
-        coords="0,0,0"
+        coords="240,240,30"
         href="#"
-        onclick="event.preventDefault(); openDialog('muren');">
+        onclick="event.preventDefault(); openDialog('permafrost');">
 
+  <!-- Kreis 2 -->
   <area shape="circle"
-        coords="0,0,0"
+        coords="450,190,30"
         href="#"
         onclick="event.preventDefault(); openDialog('gletscher');">
 
+  <!-- Kreis 3 -->
   <area shape="circle"
-        coords="430,360,30"
+        coords="420,360,30"
         href="#"
         onclick="event.preventDefault(); openDialog('muren');">
+</map>
 
 </map>
 
@@ -145,7 +150,7 @@ function openDialog(type){
   const texts = {
     permafrost: {
       title: "Permafrost",
-      text: " "
+      text: "Rising temperatures causes degradation. Permafrost can be defined as a mutli-year frozen ground, that exists both in bedrock and sediment. Due to cohesive forces of the ice and its surrounding rock, permafrost acts like a clue, that keeps even the steepest slops and many otherwise unconsolidated sediments together. Without permafrost many slopes become unstable. Due to climate change, permafrost might be gone beneath altitudes of 3850m till 2100 under continued emission growths (Dumont et. al 2025)."
     },
     gletscher: {
       title: "Gletscher",

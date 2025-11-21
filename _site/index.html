@@ -215,9 +215,11 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <!-- Image-Map (Hotspots) -->
 <map name="hotmap">
-<p><area shape="circle" coords="0,0,0" href="#" onclick="event.preventDefault(); openDialog('muren');"></p>
-<p><area shape="circle" coords="0,0,0" href="#" onclick="event.preventDefault(); openDialog('gletscher');"></p>
-<p><area shape="circle" coords="430,360,30" href="#" onclick="event.preventDefault(); openDialog('muren');"></p>
+<map name="hotmap">
+<!-- Kreis 1 -->
+<area shape="circle" coords="240,240,30" href="#" onclick="event.preventDefault(); openDialog('permafrost');">
+<p><!-- Kreis 2 --> <area shape="circle" coords="450,190,30" href="#" onclick="event.preventDefault(); openDialog('gletscher');"></p>
+<p><!-- Kreis 3 --> <area shape="circle" coords="420,360,30" href="#" onclick="event.preventDefault(); openDialog('muren');"> </p>
 </map>
 <!-- Dialogbereich -->
 <div id="dialog-container" style="margin-top:20px; padding:15px; border:1px solid #ccc; display:none;">
@@ -232,7 +234,7 @@ function openDialog(type){
   const texts = {
     permafrost: {
       title: "Permafrost",
-      text: " "
+      text: "Rising temperatures causes degradation. Permafrost is like a clue, that keeps even the steepest slops and many otherwise unconsolidated sediments together. Without permafrost many slopes become unstable. Permafrost might be gone beneath altitudes of 3850m till 2100 under continued emission growths (Dumont et. al 2025)."
     },
     gletscher: {
       title: "Gletscher",
@@ -249,7 +251,7 @@ function openDialog(type){
   document.getElementById('dialog-container').style.display = 'block';
 }
 </script>
-</section>
+</map></section>
 <section id="mitigation" class="level1">
 <h1>Mitigation and Adaption</h1>
 <p>Text …</p>

@@ -219,10 +219,7 @@ Qie, J. 2023. *A supply limited torrent, that does not feel the heat of climate 
 
 ## Word Count
 
-```{r, include=FALSE}
-#| label: wordcount
-#| echo: false
-
+```{r wordcount, echo=FALSE}
 library(stringr)
 
 # alle qmd-Dateien im aktuellen Projekt suchen
@@ -237,5 +234,11 @@ counts <- sapply(files, function(f) {
 total_words <- sum(counts)
 ```
 
-The total number of words on this page is `r print(total_words)`.
+
+The
+
+
+
+
+
 

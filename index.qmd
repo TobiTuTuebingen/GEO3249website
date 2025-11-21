@@ -3,12 +3,15 @@ title: "Climate Change and Geohazards in the Swiss Alps"
 format: html
 ---
 
-# Case Studies {#case-studies}
-![Landslide of Blatten 2025](https://il.srf.ch/images/?imageUrl=https:%2F%2Fdownload-media.srf.ch%2Fworld%2Fimage%2Fdefault%2F2025%2F07%2Fd519bb13422233727111535947.jpg&format=jpg&width=960)Fig. 1: Landslide of Blatten 2025.
+# Welcome
 
+Rockfalls, Landslides, Glacial lake outburst floods, debris flows and many more geomorphic hazards put human lives and settlements in danger. Switzerland is a densely populated country with many mountaineous areas in the Alps. Climate Change 
+
+# Case Studies {#case-studies}
+![Fig. 1: Landslide of Blatten 2025. Source: SRF](https://il.srf.ch/images/?imageUrl=https:%2F%2Fdownload-media.srf.ch%2Fworld%2Fimage%2Fdefault%2F2025%2F07%2Fd519bb13422233727111535947.jpg&format=jpg&width=960){fig-cap="Meine Bildunterschrift" width="70%"}
 
 # Damage {#damage}
-Text …
+Switzerland is a densely populated
 
 ```{r setup, include = FALSE}
 library(ggplot2)
@@ -187,12 +190,11 @@ Text …
 
 Brunner, M.; Jacquemart, M.; Weber, S. 2024. *Wie verändern sich Risiken im Alpenraum in Bezug auf hydrologische und gravitative Naturgefahren?* In: WSL Berichte, Vol. 2024, Issue 157, pp. 21-24.
 
-
-Dumont, 
+Dumont, M.; Monteiro, D.; Filhol, S.; Gasconin, S.; Marty, C.; Hagenmuller, P.; Morin, S.; Choler, P.; Thuiller, W. *The European Alps in a changing climate: physical trends and impacts.* In: Comptes Rendus Géoscience Sciences de la Planète, Vol. 2025, I. 357, pp. 25-42.
 
 Mani, P. 2021. *Geomorphic Process Chains in High-Mountain Regions - A Review ad Classification Approach for Natural Hazards Assessments.* In: Reviews of Geophysics, Vol. 61, I. 4, pp. 1-51.
 
 Moser, M.; Hamberger, M.; Schoger, H.; Rohn, J. 2025: *Hangmuren.* Springer Spekturm: Berlin.
 
-Qie, J. 2023. *A supply limited torrent, that does not feel the heat of climate change*. In: Nature Communications, Vol. 2024, I. 15:9078, pp. 1-10. 
+Qie, J. 2023. *A supply limited torrent, that does not feel the heat of climate change.* In: Nature Communications, Vol. 2024, I. 15:9078, pp. 1-10. 
 

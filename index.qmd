@@ -65,7 +65,7 @@ ggplot() +
 Text …
 
 # Climate Change {#climate-change}
-Since the 19th century the climate of the european alps is changing dramatical. Temperature increased around 2 °C celsius and is expected to increase further (Fig. Y). The speed and intensity of climate change outpaces global warming (Dumont et al. 2025). That has multiple effects:
+Since the 19th century the climate of the european alps is changing dramatical. Temperature increased around 2 °C celsius and is expected to increase further (Fig. Y). The speed and intensity of climate change outpaces global warming (Dumont et al. 2025). That has multiple effects, especially on the cryosphere and hydrosphere. Frequency, location and magnitude of hazards in the rapid changing alpine environment are extremely sensitive to climate change (Mani 20121).
 
 <!-- Gesamter Container -->
 <div style="position: relative; display: inline-block;">
@@ -150,15 +150,15 @@ function openDialog(type){
   const texts = {
     permafrost: {
       title: "Permafrost",
-      text: "Rising temperatures causes degradation. Permafrost can be defined as a mutli-year frozen ground, that exists both in bedrock and sediment. Due to cohesive forces of the ice and its surrounding rock, permafrost acts like a clue, that keeps even the steepest slops and many otherwise unconsolidated sediments together. Without permafrost many slopes become unstable. Due to climate change, permafrost might be gone beneath altitudes of 3850m till 2100 under continued emission growths (Dumont et. al 2025)."
+      text: "Rising temperatures causes degradation. Permafrost can be defined as a mutli-year frozen ground, that exists both in bedrock and sediment. Due to cohesive forces of the ice and its surrounding rock, permafrost acts like a clue, that keeps even the steepest slops and many otherwise unconsolidated sediments together. Without permafrost many slopes become unstable. Due to climate change, permafrost might be gone beneath altitudes of 3850m till 2100 under continued emission growths (Dumont et al. 2025)."
     },
     gletscher: {
-      title: "Gletscher",
-      text: "Instabile Gletscherseen können plötzlich ausbrechen (GLOFs)."
+      title: "Glaciers",
+      text: "Glaciers are in danger. Until 2100 under high emission scenarios, even the largest glaciers might almost be gone. On average in the past 50 years alpine glaciers lost 40 % of their area. Like permafrost, glaciers act as stabilisier of sediment and slopes (Dumont et al. 2025). "
     },
     muren: {
-      title: "Muren",
-      text: "Schmelzender Permafrost destabilisiert Bergflanken."
+      title: "Debris flows",
+      text: "When the whole riverbed "
     }
   };
 
@@ -185,4 +185,7 @@ Text …
 
 ## Literature
 
+Dumont, 
+
+Mani, 
 

@@ -25,11 +25,19 @@ jobs:
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
         
-      # ➡️ ENTSCHEIDENDER SCHRITT: Abhängigkeiten installieren
-      - name: Install R Dependencies
-        run: |
-          Rscript -e "install.packages(c('rmarkdown', 'knitr', 'ggplot2', 'tidyverse', 'plotly'), repos = 'https://cloud.r-project.org/')"
-        
+      # ➡️ VERBESSERTER SCHRITT: Abhängigkeiten (tidyverse, etc.) installieren
+      # Wir nutzen r-lib, um die Pakete zuverlässiger zu installieren.
+      - name: Install Quarto and R Dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          # Fügen Sie hier ALLE Pakete ein, die Sie verwenden
+          packages: |
+            rmarkdown
+            knitr
+            tidyverse
+            ggplot2
+            plotly
+          
       # 2. Quarto installieren
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2

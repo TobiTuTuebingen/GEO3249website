@@ -22,6 +22,10 @@ Speaking about hazards, the hazard itself, like debris flows and landslides must
 
 Natural hazards caused damage in the past, as the Goldau Landslide from 1815 impressively shows, when a whole village was covered in debris (Reynard 2025). Since 1946 the yearly causalties are gathered nationally.
 
+Looking at rockfall frequnecy, volume and permafrost involvment, we can clearly see the impact of the global warming. Besides overall huge variability between single years, in the last decades both the volume and number of rockfalls have significantly increased. 
+
+Uncertainties are largely due to the long history of observations. While in the pre Satellite area before 1972, with the merge of Landsat, especcially smaller rockfalls in remote areas, where not observed or reported (Heipke 2017; ). 
+
 ```{r setup, include = FALSE}
 library(ggplot2)
 library(tidyverse)
@@ -29,10 +33,6 @@ library(plotly)
 
 rockfall <- readr::read_csv("RockFallData_SLF.csv")
 ```
-
-Looking at rockfall frequnecy, volume and permafrost involvment, we can clearly see the impact of the global warming. 
-
-Uncertainties are largely due to the long history of observations. While in the pre Satellite area before 1972, with the merge of Landsat, especcially smaller rockfalls in remote areas, where not observed or reported (Heipke 2017; ). 
 
 ```{r plot, echo=FALSE}
 rockfall_yearly <- rockfall %>%
@@ -49,6 +49,10 @@ rockfall <- rockfall %>%
 ggplot() +
   geom_line(data = rockfall_yearly, 
             aes(x = year, y = count), color = "blue") +
+  geom_smooth(data = rockfall_yearly, 
+              aes(x = year, y= count),
+              se = FALSE,
+              color = "orange")+
   geom_jitter(data = rockfall,
              aes(x = year, 
                  y = 22,               

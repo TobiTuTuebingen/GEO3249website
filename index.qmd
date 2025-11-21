@@ -244,6 +244,14 @@ The total number of words on this page, including references and captions, is `r
 Responsible for the contet on this webpage is: 
 
 Tobias Tuchel
+Fliederweg 1
+71640 Ludwigsburg
+Germany
+
+Contac details:
+E-Mail: tobias.tuchel\@student.uni-tuebingen.de
+
+
 
 
 

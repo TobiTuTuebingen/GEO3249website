@@ -158,7 +158,7 @@ function openDialog(type){
     },
     muren: {
       title: "Debris flows",
-      text: "When the hole streambed gets mobilized a stream of water, air,  and fines rushes downwars and puts lifes, homes and livelihoods in danger (Qie 2023). Typically such events are triggered by high rainfall intensity. Permafrost thaw, decreased sediment cohesion and the increase in high intensity precipitation events contribute to growing frequencies and magnitude of debris flows in the future. Especially regions with current permafrost degradation will experince a significant increase of debris flows (Moser 2025)."
+      text: "When the hole streambed gets mobilized a stream of water, air,  and fines rushes downwars and puts lifes, homes and livelihoods in danger (Qie 2023). Typically such events are triggered by high rainfall intensity. Permafrost thaw, decreased sediment cohesion and the increase in high intensity precipitation events contribute to growing frequencies and magnitude of debris flows in the future. Especially regions with current permafrost degradation and unlimited sediment supply will experince a significant increase of debris flows (Moser 2025). In catchments with limited sediment suplly, no signifant change can be determined, althoug rainfall intensities increase (Brunner 2024)."
     }
   };
 
@@ -185,7 +185,14 @@ Text …
 
 ## Literature
 
+Brunner, M.; Jacquemart, M.; Weber, S. 2024. *Wie verändern sich Risiken im Alpenraum in Bezug auf hydrologische und gravitative Naturgefahren?* In: WSL Berichte, Vol. 2024, Issue 157, pp. 21-24.
+
+
 Dumont, 
 
-Mani, 
+Mani, P. 2021. *Geomorphic Process Chains in High-Mountain Regions - A Review ad Classification Approach for Natural Hazards Assessments.* In: Reviews of Geophysics, Vol. 61, I. 4, pp. 1-51.
+
+Moser, M.; Hamberger, M.; Schoger, H.; Rohn, J. 2025: *Hangmuren.* Springer Spekturm: Berlin.
+
+Qie, J. 2023. *A supply limited torrent, that does not feel the heat of climate change*. In: Nature Communications, Vol. 2024, I. 15:9078, pp. 1-10. 
 

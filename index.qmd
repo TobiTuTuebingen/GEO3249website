@@ -12,6 +12,7 @@ Speaking about hazards, the hazard itself, like debris flows and landslides must
 # Case Studies {#case-studies}
 
 ## Blatten
+
 ![Fig. 1: Landslide of Blatten 2025. Source: SRF](https://il.srf.ch/images/?imageUrl=https:%2F%2Fdownload-media.srf.ch%2Fworld%2Fimage%2Fdefault%2F2025%2F07%2Fd519bb13422233727111535947.jpg&format=jpg&width=960){fig-cap="Meine Bildunterschrift" width="70%"}
 
 ## Bondo
@@ -192,12 +193,9 @@ function openDialog(type){
 </script>
 
 # Mitigation and Adaption {#mitigation}
-Text …
-
+As a country with one of worlds highest GDPs and living standards and as well as 
 
 ![Bondo](https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/aktuelles/PresseDownloads/2017_10_27__O3A9902.jpg) Fig. X Rebuilding and Reparation after the Bondo Landslide of 2017. 
-
-
 
 
 # References
@@ -217,4 +215,27 @@ Mani, P. 2021. *Geomorphic Process Chains in High-Mountain Regions - A Review ad
 Moser, M.; Hamberger, M.; Schoger, H.; Rohn, J. 2025: *Hangmuren.* Springer Spekturm: Berlin.
 
 Qie, J. 2023. *A supply limited torrent, that does not feel the heat of climate change.* In: Nature Communications, Vol. 2024, I. 15:9078, pp. 1-10. 
+
+
+## Word Count
+
+```{r, include=FALSE}
+#| label: wordcount
+#| echo: false
+
+library(stringr)
+
+# alle qmd-Dateien im aktuellen Projekt suchen
+files <- list.files(pattern = "\\.qmd$", recursive = TRUE)
+
+# Wörter zählen
+counts <- sapply(files, function(f) {
+  text <- paste(readLines(f, warn = FALSE), collapse = " ")
+  str_count(text, boundary("word"))
+})
+
+total_words <- sum(counts)
+```
+
+The total number of words on this page is `r print(total_words)`.
 

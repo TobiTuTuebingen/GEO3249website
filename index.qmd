@@ -11,8 +11,11 @@ Speaking about hazards, the hazard itself, like debris flows and landslides must
 
 # Case Studies {#case-studies}
 
-
+## Blatten
 ![Fig. 1: Landslide of Blatten 2025. Source: SRF](https://il.srf.ch/images/?imageUrl=https:%2F%2Fdownload-media.srf.ch%2Fworld%2Fimage%2Fdefault%2F2025%2F07%2Fd519bb13422233727111535947.jpg&format=jpg&width=960){fig-cap="Meine Bildunterschrift" width="70%"}
+
+## Bondo
+
 
 # Damage {#damage}
 
@@ -69,7 +72,16 @@ ggplot() +
 
 
 # Hazards {#hazards}
-Text …
+
+## Debris flows
+
+
+## Rockfalls
+
+
+## Landslides
+
+
 
 # Climate Change {#climate-change}
 Since the 19th century the climate of the european alps is changing dramatical. Temperature increased around 2 °C celsius and is expected to increase further (Fig. 2). 

@@ -18,7 +18,7 @@ library(ggplot2)
 library(tidyverse)
 library(plotly)
 
-rockfall <- read_csv("~/Documents/Studium/Fachinhalte/5. Semester GB/Natural Hazards/Assesments/RockFallData_SLF.csv")
+rockfall <- readr::read_csv("RockFallData_SLF.csv")
 ```
 
 ```{r plot, echo=FALSE}

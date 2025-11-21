@@ -20,6 +20,7 @@ Speaking about hazards, the hazard itself, like debris flows and landslides must
 
 # Damage {#damage}
 
+Natural hazards caused damage in the past, as the Goldau Landslide from 1815 impressively shows, when a whole village was covered in debris (Reynard 2025). Since 1946 the yearly causalties are gathered nationally.
 
 ```{r setup, include = FALSE}
 library(ggplot2)
@@ -76,6 +77,7 @@ ggplot() +
 
 ## Debris flows
 
+Consisting of 
 
 ## Rockfalls
 
@@ -216,6 +218,8 @@ Mani, P. 2021. *Geomorphic Process Chains in High-Mountain Regions - A Review ad
 
 Moser, M.; Hamberger, M.; Schoger, H.; Rohn, J. 2025: *Hangmuren.* Springer Spekturm: Berlin.
 
+Reynard, E.; Häuselmann, P.; Jeannin, P.; Scapozza, C. 2025: Geomorphological Landscapes in Switzerland In: Reynard, E. *Landscapes and Landforms of Switzerland.* Cham: Springer Nature Switzerland. pp. 71-80. 
+
 Qie, J. 2023. *A supply limited torrent, that does not feel the heat of climate change.* In: Nature Communications, Vol. 2024, I. 15:9078, pp. 1-10. 
 
 
@@ -236,19 +240,18 @@ counts <- sapply(files, function(f) {
 total_words <- sum(counts)
 ```
 
-
 The total number of words on this page, including references and captions, is `r total_words`.
 
 # Imprint {#imprint}
 
 Responsible for the contet on this webpage is: 
 
-Tobias Tuchel
-Fliederweg 1
-71640 Ludwigsburg
-Germany
+Tobias Tuchel \text{}
+Fliederweg 1  \text{}
+71640 Ludwigsburg \text{}
+Germany \text{}
 
-Contac details:
+Contac details: \text{}
 E-Mail: tobias.tuchel\@student.uni-tuebingen.de
 
 

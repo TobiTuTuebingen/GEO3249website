@@ -17,6 +17,8 @@ website:
         href: "#mitigation"
       - text: "References"
         href: "#references"
+      - text: "Imprint"
+        href: "#imprint"
 
 format:
   html:

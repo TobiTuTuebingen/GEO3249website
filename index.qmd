@@ -54,7 +54,7 @@ ggplot() +
   labs(
     title = "Rockfall frequency, volume and permafrost",
     x = "Year",
-    caption = "Ploting: Tobias Tuchel. Data from: Permos 2025"
+    caption = "Fig. 2: Ploting by Tobias Tuchel. Data from: Permos 2025."
   ) +
   geom_col(data = rockfall_yearly,
            aes(x = year,
@@ -85,9 +85,9 @@ ggplot() +
 
 
 # Climate Change {#climate-change}
-Since the 19th century the climate of the european alps is changing dramatical. Temperature increased around 2 °C celsius and is expected to increase further (Fig. 2). 
+Since the 19th century the climate of the european alps is changing dramatical. Temperature increased around 2 °C celsius and is expected to increase further (Fig. 3). 
 
-![Fig. 2: Change in temperature since 1940. European Alps are outpacing global average by far. Source: Dumont et al. 2025 ](Image 21-11-2025 at 15.14.jpg){fig-cap="Meine Bildunterschrift" width="70%"}
+![Fig. 3: Change in temperature since 1940. European Alps are outpacing global average by far. Source: Dumont et al. 2025 ](Image 21-11-2025 at 15.14.jpg){fig-cap="Meine Bildunterschrift" width="70%"}
 
 The speed and intensity of climate change outpaces global warming (Dumont et al. 2025). That has multiple effects, especially on the cryosphere and hydrosphere. Frequency, location and magnitude of hazards in the rapid changing alpine environment are extremely sensitive to climate change (Mani 2021).
 
@@ -202,6 +202,8 @@ As a country with one of worlds highest GDPs and living standards and as well as
 
 ## Figures and Pictures:
 * Fig. 1: SRF, 2025. Picture of Blatten Landslide [online]. Available from: https://il.srf.ch/images/?imageUrl=https:%2F%2Fdownload-media.srf.ch%2Fworld%2Fimage%2Fdefault%2F2025%2F07%2Fd519bb13422233727111535947.jpg&format=jpg&width=960  [16/11/2025]
+* Fig. 3: Change in temperature since 1940. European Alps are outpacing global average by far. Source: Dumont et al. 2025.
+* 
 * Fig. X: Canton Grisons, 2025. Presse-Infos zum Bergsturz Piz Cengalo / Murgang Bondo. Available from: https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/aktuelles/PresseDownloads/2017_10_27__O3A9902.jpg [16/11/2025]
 
 ## Literature
@@ -237,8 +239,11 @@ total_words <- sum(counts)
 
 The total number of words on this page, including references and captions, is `r total_words`.
 
+# Imprint {#imprint}
 
+Responsible for the contet on this webpage is: 
 
+Tobias Tuchel
 
 
 

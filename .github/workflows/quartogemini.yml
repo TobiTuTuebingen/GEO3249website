@@ -28,7 +28,7 @@ jobs:
     # ➡️ NEUER SCHRITT: Abhängigkeiten (R-Pakete) installieren
       - name: Install R Dependencies
         run: |
-          Rscript -e "install.packages(c('rmarkdown', 'knitr'), repos = 'https://cloud.r-project.org/')"
+          Rscript -e "install.packages(c('rmarkdown', 'knitr', 'ggplot2', 'tidyverse'), repos = 'https://cloud.r-project.org/')"
         # Dieser Befehl installiert die fehlenden Pakete 'rmarkdown' und 'knitr'
         
       - name: Set up Quarto

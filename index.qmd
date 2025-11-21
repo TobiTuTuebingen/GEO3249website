@@ -30,6 +30,10 @@ library(plotly)
 rockfall <- readr::read_csv("RockFallData_SLF.csv")
 ```
 
+Looking at rockfall frequnecy, volume and permafrost involvment, we can clearly see the impact of the global warming. 
+
+Uncertainties are largely due to the long history of observations. While in the pre Satellite area before 1972, with the merge of Landsat, especcially smaller rockfalls in remote areas, where not observed or reported (Heipke 2017; ). 
+
 ```{r plot, echo=FALSE}
 rockfall_yearly <- rockfall %>%
   group_by(year) %>%
@@ -213,6 +217,8 @@ As a country with one of worlds highest GDPs and living standards and as well as
 Brunner, M.; Jacquemart, M.; Weber, S. 2024. *Wie verändern sich Risiken im Alpenraum in Bezug auf hydrologische und gravitative Naturgefahren?* In: WSL Berichte, Vol. 2024, Issue 157, pp. 21-24.
 
 Dumont, M.; Monteiro, D.; Filhol, S.; Gasconin, S.; Marty, C.; Hagenmuller, P.; Morin, S.; Choler, P.; Thuiller, W. *The European Alps in a changing climate: physical trends and impacts.* In: Comptes Rendus Géoscience Sciences de la Planète, Vol. 2025, I. 357, pp. 25-42.
+
+Heipke, C. 2017: Photogrammetrie und Fernerkundung – eine Einführung. In: Heipke, C. *Photogrammetrie und Fernerkundung*. Berlin: Springer Nature Germany. pp. 1-23.
 
 Mani, P. 2021. *Geomorphic Process Chains in High-Mountain Regions - A Review ad Classification Approach for Natural Hazards Assessments.* In: Reviews of Geophysics, Vol. 61, I. 4, pp. 1-51.
 

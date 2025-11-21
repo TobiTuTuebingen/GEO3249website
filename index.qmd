@@ -235,7 +235,7 @@ total_words <- sum(counts)
 ```
 
 
-The total number of words on this page is `r print(total_words)`. 
+The total number of words on this page is `r total_words`.
 
 
 

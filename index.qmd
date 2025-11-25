@@ -21,7 +21,7 @@ Natural hazards caused damage ever since humans settled in the alps, as the Gold
 
 Hier kommt ne kleine statistische Auswertung der Schäden hin seit 1946: Datenbank von ihr und diese Schweizdatenbank, einfach ein / zwei nette plots mit Trendlinien und so.
 
-```{r plot1, echo = FALSE, warning = FALSE}
+```{r plot1, echo = FALSE, message=FALSE}
 library(ggplot2)
 library(tidyverse)
 library(plotly)
@@ -65,7 +65,7 @@ Uncertainties are largely due to the long history of observations. While in the 
 rockfall <- readr::read_csv("RockFallData_SLF.csv")
 ```
 
-```{r plot, echo=FALSE}
+```{r plot, echo=FALSE, message = FALSE}
 rockfall_yearly <- rockfall %>%
   group_by(year) %>%
   summarise(count = n(),

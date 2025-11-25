@@ -22,6 +22,10 @@ Natural hazards caused damage ever since humans settled in the alps, as the Gold
 Hier kommt ne kleine statistische Auswertung der Schäden hin seit 1946: Datenbank von ihr und diese Schweizdatenbank, einfach ein / zwei nette plots mit Trendlinien und so.
 
 ```{r plot1, echo = FALSE, warning = FALSE}
+library(ggplot2)
+library(tidyverse)
+library(plotly)
+
 natdata <- readr::read_csv("envidatswiss.csv")
 
 natdata_long <- natdata %>%
@@ -57,9 +61,6 @@ Considering rockfall frequency, volume and permafrost involvement, we can clearl
 Uncertainties are largely due to the long history of observations. While in the pre Satellite area before 1972, with the merge of Landsat, especcially smaller rockfalls in remote areas, where not observed or reported (Heipke 2017). 
 
 ```{r setup, include = FALSE}
-library(ggplot2)
-library(tidyverse)
-library(plotly)
 
 rockfall <- readr::read_csv("RockFallData_SLF.csv")
 ```

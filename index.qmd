@@ -39,7 +39,6 @@ natdata_long <- natdata %>%
   )
 ```
 
-
 ```{r plot1, echo = FALSE, message=FALSE}
 ggplot(natdata_long, aes(x = year, y = `Number of Causalties`, fill = `Hazard type`))+
   geom_bar(stat = "identity", position = "stack")+
@@ -128,11 +127,11 @@ A rockfall is vertical rapid movement of bedrock as a consequence of weathering 
 
 
 # Climate Change {#climate-change}
-Since the 19th century the climate of the european alps is changing dramatical. Temperature increased around 2 °C celsius and is expected to increase further (Fig. 3).  Depedning on the scenario the european alps will see an increase in mean annual temperature in the scale between 3 °C and 6 °C (Dumont et al. 2025).
+Since the 19th century the climate of the european alps is changing dramatical. Mean annual temperature increased by around 2 °C celsius and is expected to increase further (Fig. 3).  Depending on the scenario the european alps will see an increase in mean annual temperature in the scale between 3 °C and 6 °C (Dumont et al. 2025).
 
 ![Fig. 3: Change in temperature since 1940. European Alps are outpacing global average by far. Source: Dumont et al. 2025 ](Image 21-11-2025 at 15.14.jpg){fig-cap="Meine Bildunterschrift" width="70%"}
 
-The speed and intensity of climate change outpaces global warming (Dumont et al. 2025). That has multiple effects, especially on the cryosphere and hydrosphere. Frequency, location and magnitude of hazards in the rapid changing alpine environment are extremely sensitive to climate change (Mani 2021).
+The speed and intensity of climate change outpaces global warming (Dumont et al. 2025). That has multiple effects, especially on the cryosphere and hydrosphere. Frequency, location and magnitude of hazards in the rapid changing alpine environment are extremely sensitive to climate change (Mani 2021). Click on the circles to find out more!
 
 <!-- Gesamter Container -->
 <div style="position: relative; display: inline-block;">
@@ -246,7 +245,7 @@ As Switzerland does not operate optical satellites itself, it is cooperating wit
 
 ## Organisational Solutions
 
-As a federal state, Switzerland is based on subsidence, so therefore mostly local authorities are in charge. Cantons and the federal state, only step in, when neccesary. In terms of spatial planning, knowledge about hazard prone areas are mandatory to be used and can stop further develop.  
+As a federal state, Switzerland is based on subsidence, so therefore mostly local authorities are in charge of natural hazard management. Cantons and the federal state, only step in, when necessary. In terms of spatial planning, knowledge about hazard prone areas are mandatory to be used and can stop further develop.  
 
 Learning from each other and sharing data is right at the core of the Swiss strategy. Therefore multiple platforms, such as the public available and easy to understand [Natural Hazards portal](https://www.natural-hazards.ch) or the [GIN-portal](https://www.info.gin.admin.ch/en) with live data for specialists , exist. To further enhance knowledge transfer among stakeholders, the PLANAT community instituionally provides a platform for universities, engineering companies, reinsurance companies, different local, cantonal and federal authorities to exchange their knowledge. 
 

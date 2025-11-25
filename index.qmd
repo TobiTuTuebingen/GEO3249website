@@ -7,7 +7,7 @@ format: html
 
 Rockfalls, Landslides, Glacial lake outburst floods, debris flows and many more geomorphic hazards put human lives and settlements in danger. Switzerland is a densely populated country with many mountaineous areas in the Alps. Climate Change heavily influences alpine environments, especcially the cryosphere. Therefore the hole geomorphodynamic of the alps is changing rapidly, which brings new challenges for both adaption and mitigation strategies. 
 
-Speaking about hazards, the hazard itself, like debris flows and landslides must be understood, in terms of their triggering processes and their propagation mechanisms. Building on that the impact of the modelled climate change can be estimated, which will then helps to identify, which strategies can be choosen to cope with those hazards. 
+Speaking about hazards, the hazard itself, like debris flows and landslides must be understood, in terms of their triggering processes and their propagation mechanisms. Building on that the impact of the modelled climate change can be estimated, which will then helps to identify, which strategies can be choosen to cope with those hazards. Further information and data is accessible on the following webpages: ![Em-Dat Database](https://public.emdat.be/data). Information regarding policy and mitigation strategies can be found on: ![UNDRR PreventionWeb](https://www.preventionweb.net/community/community-announcement).
 
 # Case Studies {#case-studies}
 
@@ -15,21 +15,43 @@ Speaking about hazards, the hazard itself, like debris flows and landslides must
 
 ![Fig. 1: Landslide of Blatten 2025. Source: SRF](https://il.srf.ch/images/?imageUrl=https:%2F%2Fdownload-media.srf.ch%2Fworld%2Fimage%2Fdefault%2F2025%2F07%2Fd519bb13422233727111535947.jpg&format=jpg&width=960){fig-cap="Meine Bildunterschrift" width="70%"}
 
-## Bondo
-
-
 # Damage {#damage}
 
 Natural hazards caused damage ever since humans settled in the alps, as the Goldau Landslide from 1806 impressively shows, when a whole village was covered in debris and over 450 people died (Reynard 2025). Since 1946 the yearly causalties are reported on national level. 
 
 Hier kommt ne kleine statistische Auswertung der Schäden hin seit 1946: Datenbank von ihr und diese Schweizdatenbank, einfach ein / zwei nette plots mit Trendlinien und so.
 
-```{r plot1, echo = FALSE}
-natdata <- readr::read_csv("envidat_nathaz_fat_wsl_1946-23.numbers")
+```{r plot1, echo = FALSE, warning = FALSE}
+natdata <- readr::read_csv("envidatswiss.csv")
+View(natdata)
 
-
+natdata_long <- natdata %>%
+  mutate(across(c(flood, `debris flow`, landslide, rockfall), 
+                ~ replace_na(., 0))) %>%
+  mutate(Total_Yearly_Casualties = flood + `debris flow` + landslide + rockfall) %>%
+  pivot_longer(
+    cols = c(`flood`, `debris flow`, `landslide`, `rockfall`),
+    names_to = "Hazard type",
+    values_to = "Number of Causalties"
+  )
+  
+ggplot(natdata_long, aes(x = year, y = `Number of Causalties`, fill = `Hazard type`))+
+  geom_bar(stat = "identity", position = "stack")+
+  labs(
+    title = "Total number of causalties of gravitational hazards in Switzerland decreases",
+    caption = "Fig. 2: Ploting by Tobias Tuchel. Data: Envidat 2025. Last accessed on 25/11/2025",
+  )+
+  geom_smooth(
+    data = natdata_long, 
+    aes(x = year, y = Total_Yearly_Casualties),
+    inherit.aes = FALSE, 
+    method = "loess",
+    se = FALSE,
+    colour = "black",
+    linewidth = 1
+  ) +
+  theme_minimal()
 ```
-
 
 Considering rockfall frequency, volume and permafrost involvement, we can clearly see the impact of the global warming. Besides overall huge variability between single years, in the last decades both the volume and number of rockfalls have significantly increased. The number of rockfalls, caused by permafrost degradation, rised as well, which shows the effect of climate change.
 
@@ -72,7 +94,7 @@ ggplot() +
   labs(
     title = "Rockfall frequency, volume and permafrost",
     x = "Year",
-    caption = "Fig. 2: Ploting by Tobias Tuchel. Data from: Permos 2025."
+    caption = "Fig. 3: Ploting by Tobias Tuchel. Data from: Permos 2025."
   ) +
   geom_col(data = rockfall_yearly,
            aes(x = year,
@@ -234,9 +256,11 @@ Learning from each other and sharing data is right at the core of the Swiss stra
 
 ## Figures and Pictures:
 * Fig. 1: SRF, 2025. Picture of Blatten Landslide [online]. Available from: https://il.srf.ch/images/?imageUrl=https:%2F%2Fdownload-media.srf.ch%2Fworld%2Fimage%2Fdefault%2F2025%2F07%2Fd519bb13422233727111535947.jpg&format=jpg&width=960  [16/11/2025]
-* Fig. 3: Change in temperature since 1940. European Alps are outpacing global average by far. Source: Dumont et al. 2025.
+* Fig. 2: Envidat 2025. Number of Causalties from different Natural Hazards in Switzerland since 1946 [online]. Avaible from: https://www.envidat.ch/dataset/number-of-natural-hazard-fatalities-per-year-in-switzerland-since-1946 [25/11/2025].
+* Fig. 3: Permos 2025. Data Portal: Rockfalls. Available form:  https://www.permos.ch/data-portal/rock-falls [25/11/2025].
+* Fig. 4: Change in temperature since 1940. European Alps are outpacing global average by far. Source: Dumont et al. 2025.
 * 
-* Fig. X: Canton Grisons, 2025. Presse-Infos zum Bergsturz Piz Cengalo / Murgang Bondo. Available from: https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/aktuelles/PresseDownloads/2017_10_27__O3A9902.jpg [16/11/2025]
+* Fig. X: Canton Grisons, 2025. Presse-Infos zum Bergsturz Piz Cengalo / Murgang Bondo. Available from: https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/aktuelles/PresseDownloads/2017_10_27__O3A9902.jpg [16/11/2025].
 
 ## Literature
 
@@ -298,8 +322,3 @@ Germany \text{}
 
 Contac details: \text{}
 E-Mail: tobias.tuchel\@student.uni-tuebingen.de
-
-
-
-
-

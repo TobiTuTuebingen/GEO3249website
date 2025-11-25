@@ -21,7 +21,7 @@ Natural hazards caused damage ever since humans settled in the alps, as the Gold
 
 Hier kommt ne kleine statistische Auswertung der Schäden hin seit 1946: Datenbank von ihr und diese Schweizdatenbank, einfach ein / zwei nette plots mit Trendlinien und so.
 
-```{r plot1, echo = FALSE, message=FALSE}
+```{r setup, include = FALSE}
 library(ggplot2)
 library(tidyverse)
 library(plotly)
@@ -37,7 +37,10 @@ natdata_long <- natdata %>%
     names_to = "Hazard type",
     values_to = "Number of Causalties"
   )
-  
+```
+
+
+```{r plot1, echo = FALSE, message=FALSE}
 ggplot(natdata_long, aes(x = year, y = `Number of Causalties`, fill = `Hazard type`))+
   geom_bar(stat = "identity", position = "stack")+
   labs(
@@ -60,12 +63,10 @@ Considering rockfall frequency, volume and permafrost involvement, we can clearl
 
 Uncertainties are largely due to the long history of observations. While in the pre Satellite area before 1972, with the merge of Landsat, especcially smaller rockfalls in remote areas, where not observed or reported (Heipke 2017). 
 
-```{r setup, include = FALSE}
+```{r plot, echo=FALSE, message = FALSE}
 
 rockfall <- readr::read_csv("RockFallData_SLF.csv")
-```
 
-```{r plot, echo=FALSE, message = FALSE}
 rockfall_yearly <- rockfall %>%
   group_by(year) %>%
   summarise(count = n(),
@@ -313,12 +314,12 @@ The total number of words on this page, including references and captions, is `r
 
 # Imprint {#imprint}
 
-Responsible for the contet on this webpage is: 
+Responsible for the contet on this webpage is: <br>
 
-Tobias Tuchel \text{}
-Fliederweg 1  \text{}
-71640 Ludwigsburg \text{}
-Germany \text{}
+Tobias Tuchel <br>
+Fliederweg 1  <br>
+71640 Ludwigsburg <br>
+Germany <br>
 
-Contac details: \text{}
+Contac details: <br>
 E-Mail: tobias.tuchel\@student.uni-tuebingen.de

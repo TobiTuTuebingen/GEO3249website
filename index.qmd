@@ -24,7 +24,6 @@ Hier kommt ne kleine statistische Auswertung der Schäden hin seit 1946: Datenba
 ```{r plot1, echo = FALSE, warning = FALSE}
 natdata <- readr::read_csv("envidatswiss.csv")
 
-
 natdata_long <- natdata %>%
   mutate(across(c(flood, `debris flow`, landslide, rockfall), 
                 ~ replace_na(., 0))) %>%

@@ -25,10 +25,9 @@ library(ggplot2)
 library(tidyverse)
 library(plotly)
 
-totcaus <- sum(natdata$total)
 
 natdata <- readr::read_csv("envidatswiss.csv")
-
+totcaus <- sum(natdata$total, na.rm = TRUE)
 natdata_long <- natdata %>%
   mutate(across(c(flood, `debris flow`, landslide, rockfall), 
                 ~ replace_na(., 0))) %>%
@@ -40,8 +39,10 @@ natdata_long <- natdata %>%
   )
 ```
 
-Although there is a huge variability in the number of yearly causalties, since 1946 a overall decline can be observed. In comparison to for example Typhoons, tsunamis, earthquakes or volcanism in other countries and regions of the world, the overall number of causalties with `r totcaus` is quite low in Switzerland.  
+Although there is a huge variability in the number of yearly causalties, since 1946 a overall decline can be observed. While in the 1960s on average 5 people per year died due to gravitational natural hazards 
+In comparison to for example Typhoons, tsunamis, earthquakes or volcanism in other countries and regions of the world, the overall number of causalties with `r totcaus` since 1946 is quite low in Switzerland. 
 
+Switzerland is a safe country and is capable of reducing the number of deaths due to gravitational hazards since 1946. Considering both a significant increase in rockfall activity (PERMOS 2025) and in population, the decline in causalties is a huge success for natural hazard management in Switzerland. 
 
 ```{r plot1, echo = FALSE, message=FALSE}
 ggplot(natdata_long, aes(x = year, y = `Number of Causalties`, fill = `Hazard type`))+

@@ -19,12 +19,13 @@ Speaking about hazards, the hazard itself, like debris flows and landslides must
 
 Natural hazards caused damage ever since humans settled in the alps, as the Goldau Landslide from 1806 impressively shows, when a whole village was covered in debris and over 450 people died (Reynard 2025). Since 1946 the yearly causalties are reported on national level. 
 
-Hier kommt ne kleine statistische Auswertung der Schäden hin seit 1946: Datenbank von ihr und diese Schweizdatenbank, einfach ein / zwei nette plots mit Trendlinien und so.
 
 ```{r setup, include = FALSE}
 library(ggplot2)
 library(tidyverse)
 library(plotly)
+
+totcaus <- sum(natdata$total)
 
 natdata <- readr::read_csv("envidatswiss.csv")
 
@@ -38,6 +39,9 @@ natdata_long <- natdata %>%
     values_to = "Number of Causalties"
   )
 ```
+
+Although there is a huge variability in the number of yearly causalties, since 1946 a overall decline can be observed. In comparison to for example Typhoons, tsunamis, earthquakes or volcanism in other countries and regions of the world, the overall number of causalties with `r totcaus` is quite low in Switzerland.  
+
 
 ```{r plot1, echo = FALSE, message=FALSE}
 ggplot(natdata_long, aes(x = year, y = `Number of Causalties`, fill = `Hazard type`))+

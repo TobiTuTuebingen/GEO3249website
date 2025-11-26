@@ -39,10 +39,9 @@ natdata_long <- natdata %>%
   )
 ```
 
-Although there is a huge variability in the number of yearly causalties, since 1946 a overall decline can be observed. While in the 1960s on average 5 people per year died due to gravitational natural hazards 
-In comparison to for example Typhoons, tsunamis, earthquakes or volcanism in other countries and regions of the world, the overall number of causalties with `r totcaus` since 1946 is quite low in Switzerland. 
+Although there is a huge variability in the number of yearly causalties, since 1946 a overall decline can be observed. While in the 1960s on average 5 people per year died due to gravitational natural hazards, in the 2010s that number is aroun 3 to 4 people per year. Especcially the number of causalties as a consequence of flooding decreased significantly. In comparison to for example typhoons, tsunamis, earthquakes or volcanism in other regions of the world, the overall number of causalties of `r totcaus` since 1946 is quite low in Switzerland. 
 
-Switzerland is a safe country and is capable of reducing the number of deaths due to gravitational hazards since 1946. Considering both a significant increase in rockfall activity (PERMOS 2025) and in population, the decline in causalties is a huge success for natural hazard management in Switzerland. 
+Switzerland is a safe country and is capable of reducing the number of deaths due to gravitational hazards since 1946. Considering both a significant increase in rockfall activity (PERMOS 2025, view below) and in population, the decline in causalties is a huge success for natural hazard management in Switzerland. Appropiate strategies might have been better warning and evacuation, as well as better monitoring due to technological advances. Furthermore 
 
 ```{r plot1, echo = FALSE, message=FALSE}
 ggplot(natdata_long, aes(x = year, y = `Number of Causalties`, fill = `Hazard type`))+
@@ -65,7 +64,7 @@ ggplot(natdata_long, aes(x = year, y = `Number of Causalties`, fill = `Hazard ty
 
 Considering rockfall frequency, volume and permafrost involvement, we can clearly see the impact of the global warming. Besides overall huge variability between single years, in the last decades both the volume and number of rockfalls have significantly increased. The number of rockfalls, caused by permafrost degradation, rised as well, which shows the effect of climate change.
 
-Uncertainties are largely due to the long history of observations. While in the pre Satellite area before 1972, with the merge of Landsat, especcially smaller rockfalls in remote areas, where not observed or reported (Heipke 2017). 
+Uncertainties are largely due to the long history of observations. While in the pre Satellite area before 1972, with the merge of Landsat, especcially smaller rockfalls in remote areas, where not observed or reported (Heipke 2017). There seams to be no relationship between deaths due to rockfalls and the rockfall aactivity. While rockfall activity increases significantly, the number of causalties decreases. One reason for that might be data gathering, while death causalties are far more likely to be reported, rockfalls in remote areas in pre-satellite era do not have a high porbability of getting reported. Therefore it is reasonable to argue, that the significant increase in rockfalls is at least in parts due to reporting.
 
 ```{r plot, echo=FALSE, message = FALSE}
 

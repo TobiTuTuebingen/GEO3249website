@@ -1,6 +1,8 @@
 ---
 title: "Climate Change and Geohazards in the Swiss Alps"
 format: html
+execute:
+  fig-align: center
 ---
 
 # Welcome
@@ -120,13 +122,11 @@ Although natural hazards can not be fully understood seperatly, it is helpful to
 
 | | |
 |:---:|:---:|
-| **![Fig. 4: Site of the Bondo event](bondomap.png){width="100%"}** | The Bondo event of 2017 is a good example of cascading processes. In August 23th 2017 a landslide occured in the north-eastern facing wall of the Piz Cengalo in the Canton of Grisons (Fig. 4). The event started as an rock-slope failure in a premafrost-degradation tectonic unstable wall. When 3 Million cubic meter of debris hit a retreating glacier and its water saturated sediment, a debris flow was formed. Up to two days after the event, still new debris flows formed and flowed downwards towards Bondo. The event led to human causalties and significant damage of infrastructure (Walter et al. 2019; Mani 2021). |
-
-Crucial for the propagation of the debris after the rock avalanche was the melting glacier and its debris beneath. Due to climate change and the melting glacier released a lot of water, which was stored in the debris beneath (Walter et al. 2019; Mani 2021). 
+| **![Fig. 4: Site of the Bondo event](bondomap.png){width="100%"}** | The Bondo event of 2017 is a good example of cascading processes. In August 23th 2017 a landslide occured in the north-eastern facing wall of the Piz Cengalo in the Canton of Grisons (Fig. 4). The event started as an rock-slope failure in a permafrost-degradation tectonic unstable wall 3100 m asl. . When 3 Million cubic meter of debris hit a retreating glacier and its water saturated sediment, a debris flow was formed. Up to two days after the event, still new debris flows formed and flowed downwards towards Bondo. The event led to human causalties and significant damage of infrastructure (Walter et al. 2019; Mani 2021). Crucial for the propagation of the debris after the rock avalanche was the melting glacier and its debris beneath. Due to climate change and the melting glacier released a lot of water, which was stored in the debris beneath (Walter et al. 2019; Mani 2021). |
 
 ## Debris flows
 
-Consisting of 
+A debris flow can be defined as a rapid moving mass within a streambed, that consists of water, fine sediment and boulders, air and organic material (Zepp et al. 2023; Naqvi et al. 2023). Typicall the concentration of sediment reaches 30% to 60% (Moser, M. et al.). Debris flows occur periodically and are are a consequence of many contributing factors, such as topography, steep relief the availability of mobilisable debris and large amounts of water, such as high intensity precipitation event or meltwater from glaciers, snow or permafrost (Zepp et al. 2023). 
 
 ## Rockfalls
 
@@ -260,6 +260,10 @@ As a federal state, Switzerland is based on subsidence, so therefore mostly loca
 
 Learning from each other and sharing data is right at the core of the Swiss strategy. Therefore multiple platforms, such as the public available and easy to understand [Natural Hazards portal](https://www.natural-hazards.ch) or the [GIN-portal](https://www.info.gin.admin.ch/en) with live data for specialists , exist. To further enhance knowledge transfer among stakeholders, the PLANAT community instituionally provides a platform for universities, engineering companies, reinsurance companies, different local, cantonal and federal authorities to exchange their knowledge. 
 
+## The Case for Bondo
+
+[paper](https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/dokumentenliste_afw/2019_06_14_WEL_Gravitative_Prozesse.pdf)
+
 ![Bondo](https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/aktuelles/PresseDownloads/2017_10_27__O3A9902.jpg) Fig. X Rebuilding and Reparation after the Bondo Landslide of 2017. 
 
 
@@ -290,6 +294,8 @@ Heipke, C. 2017: Photogrammetrie und Fernerkundung – eine Einführung. In: Hei
 Mani, P. 2021. *Geomorphic Process Chains in High-Mountain Regions - A Review ad Classification Approach for Natural Hazards Assessments.* In: Reviews of Geophysics, Vol. 61, I. 4, pp. 1-51.
 
 Moser, M.; Hamberger, M.; Schoger, H.; Rohn, J. 2025: *Hangmuren.* Springer Spekturm: Berlin.
+
+Naqvi, M.; Kc, D.; Hu, L. (2023): *Numerical Modelling and Sensitivity Analysis of the Pitztal Valley Debris Flow Event.* In: Geosciences, Vol. 13, I. 378, pp. 1-17.
 
 PERMOS 2025. Swiss Permafrost Bulletin 2024. Noetzli, J. and Pellet, C. (eds.). No. 6, 29 pp. Davos Dorf. -> gut machen ! nochmal reinkugen
 

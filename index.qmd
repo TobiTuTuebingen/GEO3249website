@@ -120,14 +120,14 @@ Although natural hazards can not be fully understood seperatly, it is helpful to
 
 The Bondo event of 2017 is a good example of cascading processes. In August 23th 2017 a landslide occured in the north-eastern facing wall of the Piz Cengalo in the Canton of Grisons. 
 
-::: {layout="columns"}
+::: {.panel-grid columns=2}
 
-::: {column="50%"}
+::: {.panel}
 ![Fig. 4: Site of the Bondo event](bondomap.png){width="100%"}
 :::
 
-::: {column="50%"}
-kjaösdfasldköjfaskldöfj
+::: {.panel}
+kjaösdfasldköjfaskldöfj asdfj asölkjdf aslköjdfaö öaskjdf
 :::
 
 :::

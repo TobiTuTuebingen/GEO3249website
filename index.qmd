@@ -1,7 +1,7 @@
 ---
 title: "Climate Change and Geohazards in the Swiss Alps"
 format: html
-execute:
+html:
   fig-align: center
 ---
 
@@ -45,6 +45,7 @@ Although there is a huge variability in the number of yearly causalties, since 1
 Switzerland is a safe country and is capable of reducing the number of deaths due to gravitational hazards since 1946. Considering both a significant increase in rockfall activity (PERMOS 2025, view below) and in population, the decline in causalties is a huge success for natural hazard management in Switzerland. Appropiate strategies might have been better warning and evacuation, as well as better monitoring due to technological advances.  
 
 ```{r plot1, echo = FALSE, message=FALSE}
+
 ggplot(natdata_long, aes(x = year, y = `Number of Causalties`, fill = `Hazard type`))+
   geom_bar(stat = "identity", position = "stack")+
   labs(
@@ -67,7 +68,7 @@ Considering rockfall frequency, volume and permafrost involvement, we can clearl
 
 Uncertainties are largely due to the long history of observations. While in the pre Satellite area before 1972, with the merge of Landsat, especcially smaller rockfalls in remote areas, where not observed or reported (Heipke 2017). There seams to be no relationship between deaths due to rockfalls and the rockfall aactivity. While rockfall activity increases significantly, the number of causalties decreases. One reason for that might be data gathering, while death causalties are far more likely to be reported, rockfalls in remote areas in pre-satellite era do not have a high porbability of getting reported. Therefore it is reasonable to argue, that the significant increase in rockfalls is at least in parts due to reporting.
 
-```{r plot, echo=FALSE, message = FALSE}
+```{r plot2, echo=FALSE, message = FALSE}
 
 rockfall <- readr::read_csv("RockFallData_SLF.csv")
 
@@ -126,7 +127,7 @@ Although natural hazards can not be fully understood seperatly, it is helpful to
 
 ## Debris flows
 
-A debris flow can be defined as a rapid moving mass within a streambed, that consists of water, fine sediment and boulders, air and organic material (Zepp et al. 2023; Naqvi et al. 2023). Typicall the concentration of sediment reaches 30% to 60% (Moser, M. et al.). Debris flows occur periodically and are are a consequence of many contributing factors, such as topography, steep relief the availability of mobilisable debris and large amounts of water, such as high intensity precipitation event or meltwater from glaciers, snow or permafrost (Zepp et al. 2023). 
+A debris flow can be defined as a rapid moving mass within a streambed, that consists of water, fine sediment and boulders, air and organic material (Zepp et al. 2023; Naqvi et al. 2023). Commonly the concentration of sediment reaches 30% to 60% (Moser, M. et al.). Debris flows occur periodically and are are a consequence of many contributing factors, such as topography, steep relief the availability of mobilisable debris and large amounts of water, such as high intensity precipitation event or meltwater from glaciers, snow or permafrost (Zepp et al. 2023). 
 
 ## Rockfalls
 

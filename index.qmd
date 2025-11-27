@@ -120,7 +120,9 @@ Although natural hazards can not be fully understood seperatly, it is helpful to
 
 | | |
 |:---:|:---:|
-| **![Fig. 4: Site of the Bondo event](bondomap.png){width="100%"}** | The Bondo event of 2017 is a good example of cascading processes. In August 23th 2017 a landslide occured in the north-eastern facing wall of the Piz Cengalo in the Canton of Grisons (Fig. 4). The event started as an rock-slope failure in a premafrost-degradation tectonic unstable wall. When 3 Million cubic meter of debris hit a retreating glacier and its water saturated sediment, a debris flow was formed. Up to two days after the event, still new debris flows formed and flowed downwards towards Bondo. The event led to human causalties and significant damage of infrastructure (Walter et al. 2019). |
+| **![Fig. 4: Site of the Bondo event](bondomap.png){width="100%"}** | The Bondo event of 2017 is a good example of cascading processes. In August 23th 2017 a landslide occured in the north-eastern facing wall of the Piz Cengalo in the Canton of Grisons (Fig. 4). The event started as an rock-slope failure in a premafrost-degradation tectonic unstable wall. When 3 Million cubic meter of debris hit a retreating glacier and its water saturated sediment, a debris flow was formed. Up to two days after the event, still new debris flows formed and flowed downwards towards Bondo. The event led to human causalties and significant damage of infrastructure (Walter et al. 2019; Mani 2021). |
+
+Crucial for the propagation of the debris after the rock avalanche was the melting glacier and its debris beneath. Due to climate change and the melting glacier released a lot of water, which was stored in the debris beneath (Walter et al. 2019; Mani 2021). 
 
 ## Debris flows
 

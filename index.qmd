@@ -15,8 +15,16 @@ Speaking about hazards, the hazard itself, like debris flows and landslides must
 
 ## Bondo
 
-![Fig. 1: Event of Bondo 2025. Source: AFP News Agency](https://www.youtube.com/watch?v=Bbf0dhwgWKc){fig-cap="" width="70%"}
+<figure style="width:70%">
+  <iframe width="100%" height="400"
+          src="https://www.youtube.com/embed/Bbf0dhwgWKc"
+          frameborder="0"
+          allowfullscreen>
+  </iframe>
+  <figcaption>Fig. 1: Event of Bondo 2025. Source: AFP News Agency — Meine Bildunterschrift</figcaption>
+</figure>
 
+*Fig. 1: Event of Bondo 2025. Source: AFP News Agency*
 # Damage {#damage}
 
 Natural hazards caused damage ever since humans settled in the alps, as the Goldau rockslide from 1806 impressively shows, when a whole village was covered in debris and over 450 people died (Reynard 2025). Since 1946 the yearly casualties are reported on national level. 
@@ -271,7 +279,7 @@ Learning from each other and sharing data is right at the core of the Swiss stra
 |:---:|:---:|
 | ![Fig. 7](alarmsystemcengalo.png)| In the case of Bondo the geological weakness of the rock was well known in beforehand of the events. Back in 2012 smaller events of rockfalls at Piz Cengalo have occured and caused damage at the touristic infrastructure. In reaction to that events construction measurements, such as a collection basin and a in situ alarm system for debris flows and rockfalls were installed. In both measurements, the local population was politically involved. The picture left shows different optical and RADAR early warning systems as well as sirens and warning lights in the Bondo village. Although still significant damage was caused through the debris flows, the mitigation measurements have benn proven capable of preventing further damage. In comparison to the vast amount of sediment, aprroximately 550 000 m^3 of sediment, only few damage occured (Gabbi 2019 et al.; Walter et al. 2020). |
 
-![Fig. 8: Rebuilding and Reparation after the Bondo debris flows of 2017.](https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/aktuelles/PresseDownloads/2017_10_27__O3A9902.jpg){width = 100%}
+![Fig. 8: Rebuilding and Reparation after the Bondo debris flows of 2017.](https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/aktuelles/PresseDownloads/2017_10_27__O3A9902.jpg){fig-cap="Meine Bildunterschrift" width = 100%}
 
 # References
 

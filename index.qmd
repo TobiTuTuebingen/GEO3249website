@@ -131,7 +131,7 @@ Although natural hazards can not be fully understood separately, it is helpful t
 
 | | |
 |:---:|:---:|
-| ![Fig. 4: Site of the Bondo event](bondomap.png){fig-cap="Meine Bildunterschrift" width="100%"} | The Bondo event of 2017 is a good example of cascading processes. In August 23th 2017 a rock avalanche occured in the north-eastern facing wall of the Piz Cengalo in the Canton of Grisons (Fig. 4). The event started as an rock-slope failure in a permafrost-degradation tectonic unstable wall 3100 m asl. When 3 Million cubic meter of debris hit a melting glacier and its water saturated sediment, a debris flow was formed. Up to two days after the event, still new debris flows formed and flowed downwards towards Bondo. The event led to human casualties and significant damage on infrastructure (Walter et al. 2019; Mani 2021). Crucial for the propagation of the debris after the rock avalanche was the melting glacier and its debris beneath. Due to climate change and the melting glacier released a lot of water, which was stored in the debris beneath (Walter et al. 2019; Mani 2021). |
+| <img src="bondomap.png" width="100%"><br> Fig. 4: Site of the Bondo event. | The Bondo event of 2017 is a good example of cascading processes. In August 23th 2017 a rock avalanche occured in the north-eastern facing wall of the Piz Cengalo in the Canton of Grisons (Fig. 4). The event started as an rock-slope failure in a permafrost-degradation tectonic unstable wall 3100 m asl. When 3 Million cubic meter of debris hit a melting glacier and its water saturated sediment, a debris flow was formed. Up to two days after the event, still new debris flows formed and flowed downwards towards Bondo. The event led to human casualties and significant damage on infrastructure (Walter et al. 2019; Mani 2021). Crucial for the propagation of the debris after the rock avalanche was the melting glacier and its debris beneath. Due to climate change and the melting glacier released a lot of water, which was stored in the debris beneath (Walter et al. 2019; Mani 2021). |
 
 ## Debris flows
 
@@ -277,14 +277,14 @@ Learning from each other and sharing data is right at the core of the Swiss stra
 
 | | |
 |:---:|:---:|
-| ![Fig. 7](alarmsystemcengalo.png)| In the case of Bondo the geological weakness of the rock was well known in beforehand of the events. Back in 2012 smaller events of rockfalls at Piz Cengalo have occured and caused damage at the touristic infrastructure. In reaction to that events construction measurements, such as a collection basin and a in situ alarm system for debris flows and rockfalls were installed. In both measurements, the local population was politically involved. The picture left shows different optical and RADAR early warning systems as well as sirens and warning lights in the Bondo village. Although still significant damage was caused through the debris flows, the mitigation measurements have benn proven capable of preventing further damage. In comparison to the vast amount of sediment, aprroximately 550 000 m^3 of sediment, only few damage occured (Gabbi 2019 et al.; Walter et al. 2020). |
+| <img src="alarmsystemcengalo.png" width="100%"><br> Fig. 7: Early warning systems installed after the 2012 events at Bondo. | In the case of Bondo the geological weakness of the rock was well known in beforehand of the events. Back in 2012 smaller events of rockfalls at Piz Cengalo have occured and caused damage at the touristic infrastructure. In reaction to that events construction measurements, such as a collection basin and a in situ alarm system for debris flows and rockfalls were installed. In both measurements, the local population was politically involved. The picture left shows different optical and RADAR early warning systems as well as sirens and warning lights in the Bondo village. Although still significant damage was caused through the debris flows, the mitigation measurements have benn proven capable of preventing further damage. In comparison to the vast amount of sediment, approximately 550 000 m\^3 of sediment, only few damage occured (Gabbi 2019 et al.; Walter et al. 2020). |
 
-![Fig. 8: Rebuilding and Reparation after the Bondo debris flows of 2017.](https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/aktuelles/PresseDownloads/2017_10_27__O3A9902.jpg){fig-cap="Meine Bildunterschrift" width = 100%}
+![Fig. 8: Rebuilding and Reparation after the Bondo debris flows of 2017.](https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/aktuelles/PresseDownloads/2017_10_27__O3A9902.jpg){fig-cap="Meine Bildunterschrift" width="100%"}
 
 # References
 
 ## Figures and Pictures:
-* Fig. 1: 
+* Fig. 1: Event of Bondo 2107. Source: AFP News Agency. Available from: https://www.youtube.com/embed/Bbf0dhwgWKc [29/11/2025]
 * Fig. 2: Envidat 2025. Number of Causalties from different Natural Hazards in Switzerland since 1946 [online]. Avaible from: https://www.envidat.ch/dataset/number-of-natural-hazard-fatalities-per-year-in-switzerland-since-1946 [25/11/2025].
 * Fig. 3: Permos 2025. Data Portal: Rockfalls. Available form:  https://www.permos.ch/data-portal/rock-falls [25/11/2025].
 * Fig. 4: Overview of the Bondo event of 2017. Source: Walter et al. 2020.

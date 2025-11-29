@@ -15,7 +15,7 @@ Speaking about hazards, the hazard itself, like debris flows and landslides must
 
 ## Bondo
 
-![Fig. 1: Event of Bondo 2025. Source: SRF](){fig-cap="Meine Bildunterschrift" width="70%"}
+![Fig. 1: Event of Bondo 2025. Source: AFP News Agency](https://www.youtube.com/watch?v=Bbf0dhwgWKc){fig-cap="" width="70%"}
 
 # Damage {#damage}
 
@@ -144,8 +144,11 @@ The speed and intensity of climate change outpaces global warming (Dumont et al.
 <!-- Gesamter Container -->
 <div style="position: relative; display: inline-block;">
 
+<figure>
   <!-- Bild mit Image-Map -->
   <img src="IMG_5211.jpeg" usemap="#hotmap" width="800">
+  <figcaption>Fig. 6: A high mountain environment in climate change era. Source: Tobias Tuchel 2025, Own picture.</figcaption>
+</figure>
 
   <!-- Sichtbare Kreise (Overlay) -->
   <!-- Kreis 1: PF -->
@@ -268,7 +271,7 @@ Learning from each other and sharing data is right at the core of the Swiss stra
 |:---:|:---:|
 | ![Fig. 7](alarmsystemcengalo.png)| In the case of Bondo the geological weakness of the rock was well known in beforehand of the events. Back in 2012 smaller events of rockfalls at Piz Cengalo have occured and caused damage at the touristic infrastructure. In reaction to that events construction measurements, such as a collection basin and a in situ alarm system for debris flows and rockfalls were installed. In both measurements, the local population was politically involved. The picture left shows different optical and RADAR early warning systems as well as sirens and warning lights in the Bondo village. Although still significant damage was caused through the debris flows, the mitigation measurements have benn proven capable of preventing further damage. In comparison to the vast amount of sediment, aprroximately 550 000 m^3 of sediment, only few damage occured (Gabbi 2019 et al.; Walter et al. 2020). |
 
-![Fig. 8: Rebuilding and Reparation after the Bondo debris flows of 2017.](){width = 100%}
+![Fig. 8: Rebuilding and Reparation after the Bondo debris flows of 2017.](https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/aktuelles/PresseDownloads/2017_10_27__O3A9902.jpg){width = 100%}
 
 # References
 
@@ -278,7 +281,7 @@ Learning from each other and sharing data is right at the core of the Swiss stra
 * Fig. 3: Permos 2025. Data Portal: Rockfalls. Available form:  https://www.permos.ch/data-portal/rock-falls [25/11/2025].
 * Fig. 4: Overview of the Bondo event of 2017. Source: Walter et al. 2020.
 * Fig. 5: Change in temperature since 1940. European Alps are outpacing global average by far. Source: Dumont et al. 2025.
-* Fig. 6: A hihg mountain environment in climate change era. Source: Own Picture, Pitztal Valley, July 2025.
+* Fig. 6: A high mountain environment in climate change era. Source: Own Picture, Pitztal Valley, July 2025.
 * Fig. 7: Alarm System in Bondo. Source: Gabbi et al. 2019.
 * Fig. 8: Canton Grisons, 2025. Presse-Infos zum Bergsturz Piz Cengalo / Murgang Bondo. Available from: https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/aktuelles/PresseDownloads/2017_10_27__O3A9902.jpg [16/11/2025].
 

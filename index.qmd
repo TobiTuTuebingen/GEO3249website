@@ -224,7 +224,7 @@ function openDialog(type){
   const texts = {
     permafrost: {
       title: "Permafrost",
-      text: "Rising temperatures causes degradation. Permafrost can be defined as a mutli-year frozen ground, that exists both in bedrock and sediment. Due to cohesive forces of the ice and its surrounding rock, permafrost acts like a clue, that keeps even the steepest slops and many otherwise unconsolidated sediments together. Without permafrost many slopes become unstable. Due to climate change, permafrost might be gone beneath altitudes of 3850m till 2100 under continued emission growths (Dumont et al. 2025)."
+      text: "Rising temperatures causes degradation. Permafrost can be defined as a multi-year frozen ground, that exists both in bedrock and sediment. Its distribution is heterogeneous and depends mainly on aspect, altitude and latitude and reflects to local conditions in energy fluxes. Due to cohesive forces of the ice and its surrounding rock, permafrost acts like a clue, that keeps even the steepest slops and many otherwise unconsolidated sediments together. Without permafrost many slopes become unstable. Due to climate change, permafrost might be gone beneath altitudes of 3850m till 2100 under continued emission growths (Dumont et al. 2025)."
     },
     gletscher: {
       title: "Glaciers",
@@ -241,6 +241,10 @@ function openDialog(type){
   document.getElementById('dialog-container').style.display = 'block';
 }
 </script>
+
+The effects of climate change on gravitational hazards differ temporally, regionally and from hazard to hazard. Although climate change affects globally, its local effects depend highly on regional and local conditions, such as geomorphological, topographical, geological factors (Moser et al. 2025). As Qie 2023 impressively shows, although the frequency and magnitude of high intensity precipitation events, significantly increases, their is no response in debris flow events, due to the limited supply of sediments.
+
+Accesible data is still limited and especially on local scale predictions and modells are prone to significant uncertainties (Beniston 2010). Furthermore not only climate change affects the vulnerability of mountain regions. The expansion of human settlemts, the build-up of human infrastructure for eg. tourism, traffic and communication not just increases exposition and potential damage but contributes to hazardeous events. As Moser et al. 2025 show, that debris flows tend to be triggered through slope drainage disturbation as a result of road construction or hydraulic engineering. 
 
 # Mitigation and Adaption {#mitigation}
 As a country with one of worlds highest GDPs and living standards, a long experience in the management of natural hazards, Switzerland is overall well prepared for the future. 

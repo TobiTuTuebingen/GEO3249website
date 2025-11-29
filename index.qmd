@@ -21,10 +21,10 @@ Speaking about hazards, the hazard itself, like debris flows and landslides must
           frameborder="0"
           allowfullscreen>
   </iframe>
-  <figcaption>Fig. 1: Event of Bondo 2025. Source: AFP News Agency — Meine Bildunterschrift</figcaption>
+  <figcaption>Fig. 1: Event of Bondo 2025. Source: AFP News Agency</figcaption>
 </figure>
 
-*Fig. 1: Event of Bondo 2025. Source: AFP News Agency*
+
 # Damage {#damage}
 
 Natural hazards caused damage ever since humans settled in the alps, as the Goldau rockslide from 1806 impressively shows, when a whole village was covered in debris and over 450 people died (Reynard 2025). Since 1946 the yearly casualties are reported on national level. 
@@ -131,7 +131,7 @@ Although natural hazards can not be fully understood separately, it is helpful t
 
 | | |
 |:---:|:---:|
-| **![Fig. 4: Site of the Bondo event](bondomap.png){fig-cap="Meine Bildunterschrift", width="100%"}** | The Bondo event of 2017 is a good example of cascading processes. In August 23th 2017 a rock avalanche occured in the north-eastern facing wall of the Piz Cengalo in the Canton of Grisons (Fig. 4). The event started as an rock-slope failure in a permafrost-degradation tectonic unstable wall 3100 m asl. When 3 Million cubic meter of debris hit a melting glacier and its water saturated sediment, a debris flow was formed. Up to two days after the event, still new debris flows formed and flowed downwards towards Bondo. The event led to human casualties and significant damage on infrastructure (Walter et al. 2019; Mani 2021). Crucial for the propagation of the debris after the rock avalanche was the melting glacier and its debris beneath. Due to climate change and the melting glacier released a lot of water, which was stored in the debris beneath (Walter et al. 2019; Mani 2021). |
+| ![Fig. 4: Site of the Bondo event](bondomap.png){fig-cap="Meine Bildunterschrift" width="100%"} | The Bondo event of 2017 is a good example of cascading processes. In August 23th 2017 a rock avalanche occured in the north-eastern facing wall of the Piz Cengalo in the Canton of Grisons (Fig. 4). The event started as an rock-slope failure in a permafrost-degradation tectonic unstable wall 3100 m asl. When 3 Million cubic meter of debris hit a melting glacier and its water saturated sediment, a debris flow was formed. Up to two days after the event, still new debris flows formed and flowed downwards towards Bondo. The event led to human casualties and significant damage on infrastructure (Walter et al. 2019; Mani 2021). Crucial for the propagation of the debris after the rock avalanche was the melting glacier and its debris beneath. Due to climate change and the melting glacier released a lot of water, which was stored in the debris beneath (Walter et al. 2019; Mani 2021). |
 
 ## Debris flows
 

@@ -5,7 +5,7 @@ html:
   fig-align: center
 ---
 
-Rockfalls, Landslides, Glacial lake outburst floods, debris flows and many more geomorphic hazards put human lives in danger. Switzerland is a densely populated country with many mountaineous areas in the Alps. Climate Change heavily influences alpine environments, especially the cryosphere. Therefore the hole geomorphodynamic of the alps is changing rapidly, which brings new challenges. Further information and data is accessible on the following webpages: [Em-Dat Database](https://public.emdat.be/data) and [UNDRR PreventionWeb](https://www.preventionweb.net/community/community-announcement).
+Rockfalls, landslides, glacial lake outburst floods, and debris flows all pose serious risks to people living in alpine regions. In densely populated Switzerland, these hazards are especially relevant. Climate change is transforming the Alpine cryosphere at high speed, reshaping geomorphic processes and creating new challenges for hazard management. Further information and data is accessible on the following webpages: [Em-Dat Database](https://public.emdat.be/data) and [UNDRR PreventionWeb](https://www.preventionweb.net/community/community-announcement).
 
 # Case Study: Bondo {#case-studies}
 
@@ -20,8 +20,6 @@ Rockfalls, Landslides, Glacial lake outburst floods, debris flows and many more 
 
 
 # Damage {#damage}
-
-Natural hazards caused damage ever since humans settled in the alps, as the Goldau rockslide from 1806 impressively shows, when a whole village was covered in debris and over 450 people died (Reynard 2025). Since 1946 the yearly casualties are reported on national level. 
 
 ```{r setup, include = FALSE}
 library(ggplot2)
@@ -42,7 +40,7 @@ natdata_long <- natdata %>%
   )
 ```
 
-Although there is a huge variability in the number of yearly casualties, since 1946 a overall decline can be observed. While in the 1960s on average 5 people per year died due to gravitational natural hazards, in the 2010s that number has fallen to approximately 3 to 4 people per year. Especially the number of casualties as a consequence of flooding decreased significantly. Considering both a significant increase in rockfall activity (PERMOS 2025, view below) and in population, the decline in casualties is a huge success for natural hazard management in Switzerland. The overall number of casualties of `r totcaus` since 1946 is quite low in Switzerland. 
+Analyzing historical trends helps us to make better predictions for the future and evaluate hazard management. Despite huge year-to-year variability in casualties, since 1946 Switzerland has seen a decline in casualties from gravitational natural hazards. Between the 1960s and the 2010s the averaged yearly casualties have fallen from around 5 to 3 to 4. Especially the number of casualties as a consequence of flooding decreased significantly. Considering both a significant increase in rockfall activity (PERMOS 2025, view below) and in population, the decline in casualties is a huge success for natural hazard management in Switzerland. The overall number of casualties of `r totcaus` since 1946 is quite low in Switzerland.
 
 ```{r plot1, echo = FALSE, message=FALSE}
 
@@ -235,7 +233,7 @@ As a federal state, Switzerland is based on subsidence, so mostly local authorit
 
 | | |
 |:---:|:---:|
-| <img src="alarmsystemcengalo.png" width="100%"><br> Fig. 7: Early warning systems installed after the 2012 events at Bondo. | In the case of Bondo the geological weakness of the rock was well known in beforehand of the events. Back in 2012 smaller events of rockfalls at Piz Cengalo have occured and caused damage at the touristic infrastructure. In reaction to that events construction measurements, such as a collection basin and a in situ alarm system for debris flows and rockfalls were installed. In both measurements, the local population was politically involved. The picture left shows different optical and RADAR early warning systems as well as sirens and warning lights in the Bondo village. Although still significant damage was caused through the debris flows, the mitigation measurements have benn proven capable of preventing further damage. In comparison to the vast amount of sediment, approximately 550 000 m\^3 of sediment, only few damage occured (Gabbi 2019 et al.; Walter et al. 2020). |
+| <img src="alarmsystemcengalo.png" width="100%"><br> Fig. 7: Alarm system in Bondo. | Early warning systems were installed in Bondo after smaller rockfall events at Piz Cengalo in 2012 had already damaged tourist infrastructure.  In response, a sediment retention basin and an on-site alarm system for debris flows and rockfalls were constructed, with active involvement of the local population. The image on the left shows optical and radar-based monitoring systems as well as sirens and warning lights in the village. Although the 2017 debris flows still caused significant impacts, these mitigation measures effectively reduced further losses. Considering the large sediment volume involved actual damage remained comparatively limited (Gabbi et al. 2019; Walter et al. 2020) |
 
 # References
 
@@ -246,7 +244,7 @@ As a federal state, Switzerland is based on subsidence, so mostly local authorit
 * Fig. 4: Overview of the Bondo event of 2017. Source: Walter et al. 2020.
 * Fig. 5: Change in temperature since 1940. European Alps are outpacing global average by far. Source: Dumont et al. 2025.
 * Fig. 6: A high mountain environment in climate change era. Source: Own Picture, Pitztal Valley, July 2025.
-* Fig. 7: Alarm System in Bondo. Source: Gabbi et al. 2019.
+* Fig. 7: Alarm system in Bondo. Source: Gabbi et al. 2019.
 
 ## Literature
 

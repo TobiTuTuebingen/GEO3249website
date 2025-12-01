@@ -5,13 +5,9 @@ html:
   fig-align: center
 ---
 
-# Welcome
-
 Rockfalls, Landslides, Glacial lake outburst floods, debris flows and many more geomorphic hazards put human lives in danger. Switzerland is a densely populated country with many mountaineous areas in the Alps. Climate Change heavily influences alpine environments, especially the cryosphere. Therefore the hole geomorphodynamic of the alps is changing rapidly, which brings new challenges. Further information and data is accessible on the following webpages: [Em-Dat Database](https://public.emdat.be/data) and [UNDRR PreventionWeb](https://www.preventionweb.net/community/community-announcement).
 
-# Case Study {#case-studies}
-
-## Bondo
+# Case Study: Bondo {#case-studies}
 
 <figure style="width:70%">
   <iframe width="100%" height="400"
@@ -46,9 +42,7 @@ natdata_long <- natdata %>%
   )
 ```
 
-Although there is a huge variability in the number of yearly casualties, since 1946 a overall decline can be observed. While in the 1960s on average 5 people per year died due to gravitational natural hazards, in the 2010s that number has fallen to approximately 3 to 4 people per year. Especially the number of casualties as a consequence of flooding decreased significantly. In comparison to for example typhoons, tsunamis, earthquakes or volcanism in other regions of the world, the overall number of casualties of `r totcaus` since 1946 is quite low in Switzerland. 
-
-Switzerland is a safe country and is capable of reducing the number of deaths due to gravitational hazards since 1946. Considering both a significant increase in rockfall activity (PERMOS 2025, view below) and in population, the decline in casualties is a huge success for natural hazard management in Switzerland.  
+Although there is a huge variability in the number of yearly casualties, since 1946 a overall decline can be observed. While in the 1960s on average 5 people per year died due to gravitational natural hazards, in the 2010s that number has fallen to approximately 3 to 4 people per year. Especially the number of casualties as a consequence of flooding decreased significantly. Considering both a significant increase in rockfall activity (PERMOS 2025, view below) and in population, the decline in casualties is a huge success for natural hazard management in Switzerland. The overall number of casualties of `r totcaus` since 1946 is quite low in Switzerland. 
 
 ```{r plot1, echo = FALSE, message=FALSE}
 
@@ -126,7 +120,7 @@ In high mountain areas, such as the swiss alps, many processes are temporarily a
 
 | | |
 |:---:|:---:|
-| <img src="bondomap.png" width="100%"><br> Fig. 4: Site of the Bondo event. | The Bondo event of 2017 is a good example of cascading processes. In August 23th 2017 a rock avalanche occured at Piz Cengalo in the Canton of Grisons (Fig. 4). The event started as an rock-slope failure in a permafrost-degradation wall 3100 m asl. When 3 Million cubic meter of debris hit a melting glacier and its water saturated sediment, a debris flow was formed. Up to two days after the event, still new debris flows formed and flowed downwards towards Bondo. The event led to human casualties and significant damage on infrastructure (Walter et al. 2019; Mani 2021). Crucial for the propagation of the debris after the rock avalanche was the melting glacier and its debris beneath. Due to climate change the melting glacier released a lot of water, which was stored in the debris beneath (Walter et al. 2019; Mani 2021). |
+| <img src="bondomap.png" width="100%"><br> Fig. 4: Site of the Bondo event. | The 2017 Bondo event illustrates process chains.  In August 23 a rock avalanche of about 3 Mio m³ detached from a permafrost-degraded slope at Piz Cengalo (Fig. 4). When the debris hit a water-saturated sediment beneath a melting glacier it transformed into multiple debris flows, which reached Bondo and caused human causalties as well as severe damage to infrastructure (Walter et al. 2019; Mani 2021). |
 
 ## Debris flows
 
@@ -238,7 +232,7 @@ function openDialog(type){
     },
     muren: {
       title: "Debris flows",
-      text: "Debris flows are hyperconcentrated flows formed of water, air biogenic material and usually 30 to 60 % of fine sediment (Qie 2023). Typically such events are triggered by high rainfall intensity. Permafrost thaw, decreased sediment cohesion and the increase in high intensity precipitation events contribute to growing frequencies and magnitude of debris flows in the future (Dumont et al. 2025). While regions with unlimited sediment supply and rapid permafrostdegradation will experience a significant increase of debris flows, catchments with limited sediment will not show siginificant trends (Moser 2025; Brunner 2024)."
+      text: "Debris flows are hyperconcentrated mixtures of water, air, and typically up to about 60% fine sediment (Qie 2023). Permafrost thaw, reduced sediment cohesion, and more frequent heavy-precipitation events are expected to increase both the frequency and magnitude of debris flows (Dumont et al. 2025). Regions with abundant sediment and rapid permafrost degradation will see the strongest rise in events, whereas catchments with limited sediment supply are unlikely to show significant trends (Moser 2025; Brunner 2024)."
     }
   };
 
@@ -253,13 +247,9 @@ The effects of climate change on gravitational hazards differ temporally, region
 # Mitigation and Adaption {#mitigation}
 As a country with one of worlds highest GDPs and living standards, a long experience in the management of natural hazards, Switzerland is overall well prepared for the future. 
 
-## Engineering Solutions
+Technical solutions play a central role in monitoring, modelling and assessing natural hazard risks. Methods range from ground-based-radar, airborne optical and LiDAR surveys to borehole temperature measurements and field campaigns (Camera 2023; Noetzli 2024; Seiz 2011; Gischig 2010; BAFU 2020).
 
-Technical solutions are mostly used for monitoring, modelling and risk estimation of natural hazards. Many techniques are used from ground based RADAR sensing, satellite remote sensing, LiDAR, Air borne optical and LiDAR measurement, to borehole measurements of temperatures in permafrost areas and field campaigns (Camera 2023; Noetzli 2024; Seiz 2011; Gischig 2010, BAFU 2020). 
-
-As Switzerland does not operate optical satellites itself, it is cooperating with the ESA and seeks to deepen this cooperation, to use satellite imagery (Camera 2023). Worldwide exceptional is the PERMOS network, consisting of 14 boreholes in the swiss alps, it is reporting permafrost temperatures since 25 years and helps to ground truth modelling and remote sensing data (Noetzli et al. 2021; Seiz 2911; PERMOS 2025).
-
-## Organisational Solutions
+As Switzerland operates no optical satellites itself, it closely cooperates with ESA (Camera 2023). Globally unique is the PERMOS network, which has monitored permafrost in boreholes since 25 years and provides essential data for risk assesment (Noetzli et al. 2021; Seiz 2911; PERMOS 2025).
 
 As a federal state, Switzerland is based on subsidence, so mostly local authorities are in charge of natural hazard management. Cantons and the federal state, only step in, when necessary. In spatial planning, hazard risk maps are mandatory and determine further development. To enhance knowledge transfer multiple platforms, such as the public available and easy to understand [Natural Hazards portal](https://www.natural-hazards.ch) or the [GIN-portal](https://www.info.gin.admin.ch/en) with live data for specialists exist and make sure that all important stakeholders transfer there knowledge regularly.  
 
@@ -318,24 +308,6 @@ with almost immediate initiation of ensuing debris flows.* In: Geomorphology. Vo
 Zepp, H.; Harnischmacher, S.; Herget, J.; Kaiselke, T. 2023. *Geomorphologie
 Eine Einführung* 8th ed., utb: Paderborn.
 
-## Word Count
-
-```{r wordcount, echo=FALSE}
-library(stringr)
-
-# alle qmd-Dateien im aktuellen Projekt suchen
-files <- list.files(pattern = "\\.qmd$", recursive = TRUE)
-
-# Wörter zählen
-counts <- sapply(files, function(f) {
-  text <- paste(readLines(f, warn = FALSE), collapse = " ")
-  str_count(text, boundary("word"))
-})
-
-total_words <- sum(counts)
-```
-
-The total number of words on this page, including references and captions, is `r total_words`.
 
 # Imprint {#imprint}
 

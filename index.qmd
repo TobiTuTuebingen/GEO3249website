@@ -261,18 +261,13 @@ As Switzerland does not operate optical satellites itself, it is cooperating wit
 
 ## Organisational Solutions
 
-As a federal state, Switzerland is based on subsidence, so therefore mostly local authorities are in charge of natural hazard management. Cantons and the federal state, only step in, when necessary. In terms of spatial planning, knowledge about hazard prone areas are mandatory to be used and can stop further develop.  
-
-Learning from each other and sharing data is right at the core of the Swiss strategy. Therefore multiple platforms, such as the public available and easy to understand [Natural Hazards portal](https://www.natural-hazards.ch) or the [GIN-portal](https://www.info.gin.admin.ch/en) with live data for specialists exist. To further enhance knowledge transfer among stakeholders, the PLANAT community institutionally provides a platform for universities, engineering companies, reinsurance companies, different local, cantonal and federal authorities to exchange their knowledge. 
+As a federal state, Switzerland is based on subsidence, so mostly local authorities are in charge of natural hazard management. Cantons and the federal state, only step in, when necessary. In spatial planning, hazard risk maps are mandatory and determine further development. To enhance knowledge transfer multiple platforms, such as the public available and easy to understand [Natural Hazards portal](https://www.natural-hazards.ch) or the [GIN-portal](https://www.info.gin.admin.ch/en) with live data for specialists exist and make sure that all important stakeholders transfer there knowledge regularly.  
 
 ## The Case for Bondo
-
 
 | | |
 |:---:|:---:|
 | <img src="alarmsystemcengalo.png" width="100%"><br> Fig. 7: Early warning systems installed after the 2012 events at Bondo. | In the case of Bondo the geological weakness of the rock was well known in beforehand of the events. Back in 2012 smaller events of rockfalls at Piz Cengalo have occured and caused damage at the touristic infrastructure. In reaction to that events construction measurements, such as a collection basin and a in situ alarm system for debris flows and rockfalls were installed. In both measurements, the local population was politically involved. The picture left shows different optical and RADAR early warning systems as well as sirens and warning lights in the Bondo village. Although still significant damage was caused through the debris flows, the mitigation measurements have benn proven capable of preventing further damage. In comparison to the vast amount of sediment, approximately 550 000 m\^3 of sediment, only few damage occured (Gabbi 2019 et al.; Walter et al. 2020). |
-
-![Fig. 8: Rebuilding and Reparation after the Bondo debris flows of 2017.](https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/aktuelles/PresseDownloads/2017_10_27__O3A9902.jpg){fig-cap="Meine Bildunterschrift" width="100%"}
 
 # References
 
@@ -284,7 +279,6 @@ Learning from each other and sharing data is right at the core of the Swiss stra
 * Fig. 5: Change in temperature since 1940. European Alps are outpacing global average by far. Source: Dumont et al. 2025.
 * Fig. 6: A high mountain environment in climate change era. Source: Own Picture, Pitztal Valley, July 2025.
 * Fig. 7: Alarm System in Bondo. Source: Gabbi et al. 2019.
-* Fig. 8: Canton Grisons, 2025. Presse-Infos zum Bergsturz Piz Cengalo / Murgang Bondo. Available from: https://www.gr.ch/DE/institutionen/verwaltung/diem/awn/aktuelles/PresseDownloads/2017_10_27__O3A9902.jpg [16/11/2025].
 
 ## Literature
 

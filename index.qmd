@@ -238,7 +238,7 @@ function openDialog(type){
     },
     muren: {
       title: "Debris flows",
-      text: "When the hole streambed gets mobilized a stream of water, air,  and fines rushes downwards and puts lifes, homes and livelihoods in danger (Qie 2023). Typically such events are triggered by high rainfall intensity. Permafrost thaw, decreased sediment cohesion and the increase in high intensity precipitation events contribute to growing frequencies and magnitude of debris flows in the future (Dumont et al. 2025). Especially regions with current permafrost degradation and unlimited sediment supply will experience a significant increase of debris flows (Moser 2025). In catchments with limited sediment supply, no significant change can be determined, although rainfall intensities increase (Brunner 2024)."
+      text: "Debris flows are hyperconcentrated flows formed of water, air biogenic material and usually 30 to 60 % of fine sediment (Qie 2023). Typically such events are triggered by high rainfall intensity. Permafrost thaw, decreased sediment cohesion and the increase in high intensity precipitation events contribute to growing frequencies and magnitude of debris flows in the future (Dumont et al. 2025). While regions with unlimited sediment supply and rapid permafrostdegradation will experience a significant increase of debris flows, catchments with limited sediment will not show siginificant trends (Moser 2025; Brunner 2024)."
     }
   };
 
@@ -248,7 +248,7 @@ function openDialog(type){
 }
 </script>
 
-The effects of climate change on gravitational hazards differ temporally, regionally and from hazard to hazard. Although climate change affects globally, its local effects depend highly on regional and local conditions, such as geomorphological, topographical, geological factors (Moser et al. 2025). 
+The effects of climate change on gravitational hazards differ temporally, regionally and from hazard to hazard. Although climate change affects the whole globe, its local effects depend highly on in-situ conditions, such as geomorphological, topographical, geological factors (Moser et al. 2025). 
 
 # Mitigation and Adaption {#mitigation}
 As a country with one of worlds highest GDPs and living standards, a long experience in the management of natural hazards, Switzerland is overall well prepared for the future. 

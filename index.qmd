@@ -160,18 +160,6 @@ That has multiple effects, especially on the cryosphere and hydrosphere. Frequen
     pointer-events:none;
   "></div>
 
-  <!-- Kreis 2: Gletscher -->
-  <div style="
-    position:absolute;
-    top:160px;
-    left:420px;
-    width:60px;
-    height:60px;
-    border:3px solid blue;
-    border-radius:50%;
-    pointer-events:none;
-  "></div>
-
   <!-- Kreis 3: Muren -->
   <div style="
     position:absolute;
@@ -196,12 +184,6 @@ That has multiple effects, especially on the cryosphere and hydrosphere. Frequen
         href="#"
         onclick="event.preventDefault(); openDialog('permafrost');">
 
-  <!-- Kreis 2 -->
-  <area shape="circle"
-        coords="450,190,30"
-        href="#"
-        onclick="event.preventDefault(); openDialog('gletscher');">
-
   <!-- Kreis 3 -->
   <area shape="circle"
         coords="420,360,30"
@@ -225,10 +207,6 @@ function openDialog(type){
     permafrost: {
       title: "Permafrost",
       text: "Rising temperatures causes degradation. Permafrost can be defined as a multi-year frozen ground, that exists both in bedrock and sediment. Due to cohesive forces of the ice and its surrounding rock, permafrost acts like a clue, that keeps even the steepest slops and many otherwise unconsolidated sediments together. Without permafrost many slopes become unstable. Due to climate change, permafrost might be gone beneath altitudes of 3850m till 2100 under continued emission growth (Dumont et al. 2025)."
-    },
-    gletscher: {
-      title: "Glaciers",
-      text: "Glaciers are in danger. Until 2100 under high emission scenarios, even the largest glaciers might almost be gone. Regardless of the climate scenario till 2050 small glaciers with accumulation areas beneath 3400m will be gone. Like permafrost, glaciers stabilise sediment and slopes (Dumont et al. 2025)."
     },
     muren: {
       title: "Debris flows",

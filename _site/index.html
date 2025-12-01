@@ -152,9 +152,7 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Rockfalls, Landslides, Glacial lake outburst floods, debris flows and many more geomorphic hazards put human lives in danger. Switzerland is a densely populated country with many mountaineous areas in the Alps. Climate Change heavily influences alpine environments, especially the cryosphere. Therefore the hole geomorphodynamic of the alps is changing rapidly, which brings new challenges. Further information and data is accessible on the following webpages: <a href="https://public.emdat.be/data">Em-Dat Database</a> and <a href="https://www.preventionweb.net/community/community-announcement">UNDRR PreventionWeb</a>.</p>
 <section id="case-studies" class="level1">
-<h1>Case Study</h1>
-<section id="bondo" class="level2">
-<h2 class="anchored" data-anchor-id="bondo">Bondo</h2>
+<h1>Case Study: Bondo</h1>
 <figure style="width:70%" class="figure">
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/Bbf0dhwgWKc" frameborder="0" allowfullscreen="">
 </iframe>
@@ -162,7 +160,6 @@ ul.task-list li input[type="checkbox"] {
 Fig. 1: Event of Bondo 2025. Source: AFP News Agency
 </figcaption>
 </figure>
-</section>
 </section>
 <section id="damage" class="level1">
 <h1>Damage</h1>
@@ -244,19 +241,6 @@ Fig. 6: A high mountain environment in climate change era. Source: Tobias Tuchel
   ">
 
 </div>
-<!-- Kreis 2: Gletscher -->
-<div style="
-    position:absolute;
-    top:160px;
-    left:420px;
-    width:60px;
-    height:60px;
-    border:3px solid blue;
-    border-radius:50%;
-    pointer-events:none;
-  ">
-
-</div>
 <!-- Kreis 3: Muren -->
 <div style="
     position:absolute;
@@ -276,7 +260,6 @@ Fig. 6: A high mountain environment in climate change era. Source: Tobias Tuchel
 <map name="hotmap">
 <!-- Kreis 1 -->
 <area shape="circle" coords="240,240,30" href="#" onclick="event.preventDefault(); openDialog('permafrost');">
-<p><!-- Kreis 2 --> <area shape="circle" coords="450,190,30" href="#" onclick="event.preventDefault(); openDialog('gletscher');"></p>
 <p><!-- Kreis 3 --> <area shape="circle" coords="420,360,30" href="#" onclick="event.preventDefault(); openDialog('muren');"> </p>
 </map>
 <!-- Dialogbereich -->
@@ -293,10 +276,6 @@ function openDialog(type){
     permafrost: {
       title: "Permafrost",
       text: "Rising temperatures causes degradation. Permafrost can be defined as a multi-year frozen ground, that exists both in bedrock and sediment. Due to cohesive forces of the ice and its surrounding rock, permafrost acts like a clue, that keeps even the steepest slops and many otherwise unconsolidated sediments together. Without permafrost many slopes become unstable. Due to climate change, permafrost might be gone beneath altitudes of 3850m till 2100 under continued emission growth (Dumont et al. 2025)."
-    },
-    gletscher: {
-      title: "Glaciers",
-      text: "Glaciers are in danger. Until 2100 under high emission scenarios, even the largest glaciers might almost be gone. Regardless of the climate scenario till 2050 small glaciers with accumulation areas beneath 3400m will be gone. Like permafrost, glaciers stabilise sediment and slopes (Dumont et al. 2025)."
     },
     muren: {
       title: "Debris flows",

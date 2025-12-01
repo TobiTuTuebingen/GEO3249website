@@ -7,11 +7,9 @@ html:
 
 # Welcome
 
-Rockfalls, Landslides, Glacial lake outburst floods, debris flows and many more geomorphic hazards put human lives and settlements in danger. Switzerland is a densely populated country with many mountaineous areas in the Alps. Climate Change heavily influences alpine environments, especcially the cryosphere. Therefore the hole geomorphodynamic of the alps is changing rapidly, which brings new challenges for both adaption and mitigation strategies. 
+Rockfalls, Landslides, Glacial lake outburst floods, debris flows and many more geomorphic hazards put human lives in danger. Switzerland is a densely populated country with many mountaineous areas in the Alps. Climate Change heavily influences alpine environments, especially the cryosphere. Therefore the hole geomorphodynamic of the alps is changing rapidly, which brings new challenges. Further information and data is accessible on the following webpages: [Em-Dat Database](https://public.emdat.be/data) and [UNDRR PreventionWeb](https://www.preventionweb.net/community/community-announcement).
 
-Speaking about hazards, the hazard itself, like debris flows and landslides must be understood, in terms of their triggering processes and their propagation mechanisms. Building on that the impact of the modelled climate change can be estimated, which will then helps to identify, which strategies can be choosen to cope with those hazards. Further information and data is accessible on the following webpages: [Em-Dat Database](https://public.emdat.be/data). Information regarding policy and mitigation strategies can be found on: [UNDRR PreventionWeb](https://www.preventionweb.net/community/community-announcement).
-
-# Case Studies {#case-studies}
+# Case Study {#case-studies}
 
 ## Bondo
 
@@ -50,7 +48,7 @@ natdata_long <- natdata %>%
 
 Although there is a huge variability in the number of yearly casualties, since 1946 a overall decline can be observed. While in the 1960s on average 5 people per year died due to gravitational natural hazards, in the 2010s that number has fallen to approximately 3 to 4 people per year. Especially the number of casualties as a consequence of flooding decreased significantly. In comparison to for example typhoons, tsunamis, earthquakes or volcanism in other regions of the world, the overall number of casualties of `r totcaus` since 1946 is quite low in Switzerland. 
 
-Switzerland is a safe country and is capable of reducing the number of deaths due to gravitational hazards since 1946. Considering both a significant increase in rockfall activity (PERMOS 2025, view below) and in population, the decline in casualties is a huge success for natural hazard management in Switzerland. Appropriate strategies might have been better warning and evacuation, as well as better monitoring due to technological advances.  
+Switzerland is a safe country and is capable of reducing the number of deaths due to gravitational hazards since 1946. Considering both a significant increase in rockfall activity (PERMOS 2025, view below) and in population, the decline in casualties is a huge success for natural hazard management in Switzerland.  
 
 ```{r plot1, echo = FALSE, message=FALSE}
 
@@ -72,9 +70,7 @@ ggplot(natdata_long, aes(x = year, y = `Number of Causalties`, fill = `Hazard ty
   theme_minimal()
 ```
 
-Considering rockfall frequency, volume and permafrost involvement, we can clearly see the impact of global warming. Besides overall huge variability between single years, in the last decades both the volume and number of rockfalls have significantly increased. The number of rockfalls, caused by permafrost degradation has risen as well, which shows the effect of climate change (Brunner et al. 2024; Moser et al. 2025; Mani 2021).
-
-Uncertainties are largely due to the long history of observations. While in the pre Satellite area before 1972, before Landsat, especially smaller rockfalls in remote areas, where not observed or reported (Heipke 2017). There seams to be no relationship between deaths due to rockfalls and the rockfall activity. While rockfall activity increases significantly, the number of casualties decreases. One reason for that might be data gathering, while death casualties are far more likely to be reported, rockfalls in remote areas in pre-satellite era do not have a high probability of getting reported. Therefore it is reasonable to argue, that the significant increase in rockfalls is at least in parts due to reporting.
+Considering rockfall frequency, volume and permafrost involvement, we can clearly see the impact of global warming. Besides overall huge variability between single years, in the last decades both the volume and number of rockfalls have significantly increased. The number of rockfalls, caused by permafrost degradation has risen as well, which shows the effect of climate change (Brunner et al. 2024; Moser et al. 2025; Mani 2021). Uncertainties are largely due to the long history of observations. While in the pre satellite area before 1972, before Landsat, especially smaller rockfalls in remote areas, where not observed (Heipke 2017). 
 
 ```{r plot2, echo=FALSE, message = FALSE}
 
@@ -124,14 +120,13 @@ ggplot() +
   theme_light()
 ```
 
-
 # Hazards {#hazards}
 
-Although natural hazards can not be fully understood separately, it is helpful to classify them. In high mountain areas, such as the swiss alps, many processes are temporarily and spatially linked. Therefore cascading processes are important and need to be considered.  Multi-hazard landscape approaches help us to understand, how spatial and temporal proximity of single events contribute to process chains, that can trigger further events and damage (Main 2021; Zepp et al. 2023).
+In high mountain areas, such as the swiss alps, many processes are temporarily and spatially linked. Therefore cascading processes are important and need to be considered.  Multi-hazard landscape approaches help us to understand, how spatial and temporal proximity of single events contribute to process chains, that can trigger further events and damage (Main 2021; Zepp et al. 2023).
 
 | | |
 |:---:|:---:|
-| <img src="bondomap.png" width="100%"><br> Fig. 4: Site of the Bondo event. | The Bondo event of 2017 is a good example of cascading processes. In August 23th 2017 a rock avalanche occured in the north-eastern facing wall of the Piz Cengalo in the Canton of Grisons (Fig. 4). The event started as an rock-slope failure in a permafrost-degradation tectonic unstable wall 3100 m asl. When 3 Million cubic meter of debris hit a melting glacier and its water saturated sediment, a debris flow was formed. Up to two days after the event, still new debris flows formed and flowed downwards towards Bondo. The event led to human casualties and significant damage on infrastructure (Walter et al. 2019; Mani 2021). Crucial for the propagation of the debris after the rock avalanche was the melting glacier and its debris beneath. Due to climate change and the melting glacier released a lot of water, which was stored in the debris beneath (Walter et al. 2019; Mani 2021). |
+| <img src="bondomap.png" width="100%"><br> Fig. 4: Site of the Bondo event. | The Bondo event of 2017 is a good example of cascading processes. In August 23th 2017 a rock avalanche occured at Piz Cengalo in the Canton of Grisons (Fig. 4). The event started as an rock-slope failure in a permafrost-degradation wall 3100 m asl. When 3 Million cubic meter of debris hit a melting glacier and its water saturated sediment, a debris flow was formed. Up to two days after the event, still new debris flows formed and flowed downwards towards Bondo. The event led to human casualties and significant damage on infrastructure (Walter et al. 2019; Mani 2021). Crucial for the propagation of the debris after the rock avalanche was the melting glacier and its debris beneath. Due to climate change the melting glacier released a lot of water, which was stored in the debris beneath (Walter et al. 2019; Mani 2021). |
 
 ## Debris flows
 
@@ -143,11 +138,11 @@ A rockfall is a vertical rapid movement of bedrock as a consequence of weatherin
 
 
 # Climate Change {#climate-change}
-Since the 19th century the climate of the european alps is changing dramatical. Mean annual temperature increased by around 2 °C celsius and is expected to increase further (Fig. 3).  Depending on the scenario the european alps will see an increase in mean annual temperature in the scale between 3 °C and 6 °C (Dumont et al. 2025).
+Since the 19th century the climate of the european alps is changing dramatical. Mean annual temperature increased by around 2 °C celsius and is expected to increase further (Fig. 3).  Depending on the scenario the european alps will see an increase in mean annual temperature in the scale between 3 °C and 6 °C which outpaces average global warming (Dumont et al. 2025).
 
 ![Fig. 5: Change in temperature since 1940. European Alps are outpacing global average by far. Source: Dumont et al. 2025 ](Image 21-11-2025 at 15.14.jpg){fig-cap="Meine Bildunterschrift" width="70%"}
 
-The speed and intensity of climate change outpaces global warming (Dumont et al. 2025). That has multiple effects, especially on the cryosphere and hydrosphere. Frequency, location and magnitude of hazards in the rapid changing alpine environment are extremely sensitive to climate change (Mani 2021). Click on the circles to find out more!
+That has multiple effects, especially on the cryosphere and hydrosphere. Frequency, location and magnitude of hazards in the rapid changing alpine environment are extremely sensitive to climate change (Mani 2021). Click on the circles to find out more!
 
 <!-- Gesamter Container -->
 <div style="position: relative; display: inline-block;">
@@ -235,11 +230,11 @@ function openDialog(type){
   const texts = {
     permafrost: {
       title: "Permafrost",
-      text: "Rising temperatures causes degradation. Permafrost can be defined as a multi-year frozen ground, that exists both in bedrock and sediment. Its distribution is heterogeneous and depends mainly on aspect, altitude and latitude and reflects to local conditions in energy fluxes. Due to cohesive forces of the ice and its surrounding rock, permafrost acts like a clue, that keeps even the steepest slops and many otherwise unconsolidated sediments together. Without permafrost many slopes become unstable. Due to climate change, permafrost might be gone beneath altitudes of 3850m till 2100 under continued emission growths (Dumont et al. 2025)."
+      text: "Rising temperatures causes degradation. Permafrost can be defined as a multi-year frozen ground, that exists both in bedrock and sediment. Due to cohesive forces of the ice and its surrounding rock, permafrost acts like a clue, that keeps even the steepest slops and many otherwise unconsolidated sediments together. Without permafrost many slopes become unstable. Due to climate change, permafrost might be gone beneath altitudes of 3850m till 2100 under continued emission growth (Dumont et al. 2025)."
     },
     gletscher: {
       title: "Glaciers",
-      text: "Glaciers are in danger. Until 2100 under high emission scenarios, even the largest glaciers might almost be gone. Regardless of the climate scenario till 2050 small glaciers with accumulation areas beneath 3400m will be gone (Dumeont et al.). On average in the past 50 years alpine glaciers lost 40 % of their area. Like permafrost, glaciers are acting as stabilisers of sediment and slopes. Unconsolidated debris beneath the current glaciers are getting exposed  (Dumont et al. 2025)."
+      text: "Glaciers are in danger. Until 2100 under high emission scenarios, even the largest glaciers might almost be gone. Regardless of the climate scenario till 2050 small glaciers with accumulation areas beneath 3400m will be gone. Like permafrost, glaciers stabilise sediment and slopes (Dumont et al. 2025)."
     },
     muren: {
       title: "Debris flows",
@@ -253,9 +248,7 @@ function openDialog(type){
 }
 </script>
 
-The effects of climate change on gravitational hazards differ temporally, regionally and from hazard to hazard. Although climate change affects globally, its local effects depend highly on regional and local conditions, such as geomorphological, topographical, geological factors (Moser et al. 2025). As Qie 2023 impressively shows, although the frequency and magnitude of high intensity precipitation events, significantly increases, their is no response in debris flow events, due to the limited supply of sediments (Brunner et al. 2024).
-
-Accessible data is still limited and especially on local scale predictions and modells are prone to significant uncertainties (Beniston 2010). Furthermore not only climate change affects the vulnerability of mountain regions. The expansion of human settlements, the build-up of human infrastructure for eg. tourism, traffic and communication not just increases exposition and potential damage but contributes to hazardous events. As Moser et al. 2025 show, that debris flows tend to be triggered through slope drainage failure as a result of road construction or hydraulic engineering. 
+The effects of climate change on gravitational hazards differ temporally, regionally and from hazard to hazard. Although climate change affects globally, its local effects depend highly on regional and local conditions, such as geomorphological, topographical, geological factors (Moser et al. 2025). 
 
 # Mitigation and Adaption {#mitigation}
 As a country with one of worlds highest GDPs and living standards, a long experience in the management of natural hazards, Switzerland is overall well prepared for the future. 
@@ -330,7 +323,6 @@ with almost immediate initiation of ensuing debris flows.* In: Geomorphology. Vo
 
 Zepp, H.; Harnischmacher, S.; Herget, J.; Kaiselke, T. 2023. *Geomorphologie
 Eine Einführung* 8th ed., utb: Paderborn.
-
 
 ## Word Count
 

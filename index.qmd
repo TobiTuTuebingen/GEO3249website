@@ -5,7 +5,7 @@ html:
   fig-align: center
 ---
 
-Rockfalls, landslides, glacial lake outburst floods, and debris flows all pose serious risks to people living in alpine regions. In densely populated Switzerland, these hazards are especially relevant. Climate change is transforming the Alpine cryosphere at high speed, reshaping geomorphic processes and creating new challenges for hazard management. Further information and data is accessible on the following webpages: [Em-Dat Database](https://public.emdat.be/data) and [UNDRR PreventionWeb](https://www.preventionweb.net/community/community-announcement).
+Rockfalls, landslides, glacial lake outburst floods, and debris flows all pose serious risks to people living in alpine regions. In densely populated Switzerland, these hazards are especially relevant. Climate change is transforming the alpine cryosphere at high speed, reshaping geomorphic processes and creating new challenges for hazard management. Further information and data is accessible on: [Em-Dat Database](https://public.emdat.be/data) and [UNDRR PreventionWeb](https://www.preventionweb.net/community/community-announcement).
 
 # Case Study: Bondo {#case-studies}
 
@@ -40,7 +40,31 @@ natdata_long <- natdata %>%
   )
 ```
 
-Analyzing historical trends helps us to make better predictions for the future and evaluate hazard management. Despite huge year-to-year variability in casualties, since 1946 Switzerland has seen a decline in casualties from gravitational natural hazards. Between the 1960s and the 2010s the averaged yearly casualties have fallen from around 5 to 3 to 4. Especially the number of casualties as a consequence of flooding decreased significantly. Considering both a significant increase in rockfall activity (PERMOS 2025, view below) and in population, the decline in casualties is a huge success for natural hazard management in Switzerland. The overall number of casualties of `r totcaus` since 1946 is quite low in Switzerland.
+```{r emdat, include = FALSE}
+emdat <- read_csv("emdatswissdata.csv")
+sum(emdat$`Total Affected`,
+    na.rm = TRUE)
+gravdamage <- emdatclean %>%
+  filter(`Disaster Type` %in% c("Mass movement (wet)", "Glacial lake outburst flood")) %>%
+  summarise(
+    total_damage_filtered = sum(`Total Damage, Adjusted ('000 US$)`, na.rm = TRUE)
+  )
+totdamage <- emdatclean %>%
+  summarise(sum(`Total Damage, Adjusted ('000 US$)`, na.rm = TRUE))
+# Share damage:
+sharedamagegrav <- gravdamage / totdamage * 100
+# Share deaths:
+gravdeaths <- emdatclean %>%
+  filter(`Disaster Type` %in% c("Mass movement (wet)", "Glacial lake outburst flood")) %>%
+  summarise(
+    total_deaths_filtered = sum(`Total Deaths`, na.rm = TRUE)
+  )
+totaldeaths <- emdatclean %>%
+  summarise(totaldeaths = sum(`Total Deaths`, na.rm = TRUE))
+sharedeathsgrav <- gravdeaths / totaldeaths * 100
+```
+
+Analyzing historical trends helps us to make better predictions for the future and evaluate hazard management. Despite huge year-to-year variability in casualties, since 1946 Switzerland has seen a decline in casualties from gravitational natural hazards. Between the 1960s and the 2010s the averaged yearly casualties have fallen from around 5 to 3 to 4. Especially pronounced was that decline regarding flooding. Considering both a significant increase in rockfall activity (PERMOS 2025, view below) and in population, the decline in casualties is a huge success for natural hazard management in Switzerland. The overall number of casualties of `r totcaus` since 1946 is quite low in Switzerland.
 
 ```{r plot1, echo = FALSE, message=FALSE}
 

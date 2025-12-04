@@ -138,11 +138,11 @@ ggplot() +
 
 # Hazards {#hazards}
 
-In high mountain areas, such as the swiss alps, many processes are temporarily and spatially linked. Therefore cascading processes are important and need to be considered.  Multi-hazard landscape approaches help us to understand, how spatial and temporal proximity of single events contribute to process chains, that can trigger further events and damage (Main 2021; Zepp et al. 2023).
+In high mountain areas, such as the swiss alps, many processes are temporarily and spatially linked. Therefore cascading processes are important and need to be considered. Multi-hazard landscape approaches help us to understand, how spatial and temporal proximity of single events contribute to process chains, that cause further damage (Main 2021; Zepp et al. 2023).
 
 | | |
 |:---:|:---:|
-| <img src="bondomap.png" width="100%"><br> Fig. 4: Site of the Bondo event. | The 2017 Bondo event illustrates process chains.  In August 23 a rock avalanche of about 3 Mio m³ detached from a permafrost-degraded slope at Piz Cengalo (Fig. 4). When the debris hit a water-saturated sediment beneath a melting glacier it transformed into multiple debris flows, which reached Bondo and caused human causalties as well as severe damage to infrastructure (Walter et al. 2019; Mani 2021). |
+| <img src="bondomap.png" width="100%"><br> Fig. 4: Site of the Bondo event. | The 2017 Bondo event illustrates process chains. In August 23 a rock avalanche of about 3 Mio m³ detached from a permafrost-degraded slope at Piz Cengalo (Fig. 4). When the debris hit a water-saturated sediment beneath a melting glacier it transformed into multiple debris flows, which reached Bondo and caused human casualties as well as severe damage to infrastructure (Walter et al. 2019; Mani 2021). |
 
 ## Debris flows
 
@@ -257,7 +257,7 @@ As a federal state, Switzerland is based on subsidence, so mostly local authorit
 
 | | |
 |:---:|:---:|
-| <img src="alarmsystemcengalo.png" width="100%"><br> Fig. 7: Alarm system in Bondo. | Early warning systems were installed in Bondo after smaller rockfall events at Piz Cengalo in 2012 had already damaged tourist infrastructure.  In response, a sediment retention basin and an on-site alarm system for debris flows and rockfalls were constructed, with active involvement of the local population. The image on the left shows optical and radar-based monitoring systems as well as sirens and warning lights in the village. Although the 2017 debris flows still caused significant impacts, these mitigation measures effectively reduced further losses. Considering the large sediment volume involved actual damage remained comparatively limited (Gabbi et al. 2019; Walter et al. 2020) |
+| <img src="alarmsystemcengalo.png" width="100%"><br> Fig. 7: Alarm system in Bondo. | Early warning systems were installed in Bondo after smaller rockfall events at Piz Cengalo in 2012. In response, a sediment retention basin and an on-site alarm system for debris flows and rockfalls were constructed, with active involvement of the local population. The image on the left shows optical and radar-based monitoring systems as well as sirens and warning lights in the village. Although the 2017 debris flows still caused significant impacts, these mitigation measures effectively reduced further losses (Gabbi et al. 2019; Walter et al. 2020). |
 
 # References
 

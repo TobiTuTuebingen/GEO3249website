@@ -44,22 +44,22 @@ natdata_long <- natdata %>%
 emdat <- read_csv("emdatswissdata.csv")
 sum(emdat$`Total Affected`,
     na.rm = TRUE)
-gravdamage <- emdatclean %>%
+gravdamage <- emdat %>%
   filter(`Disaster Type` %in% c("Mass movement (wet)", "Glacial lake outburst flood")) %>%
   summarise(
     total_damage_filtered = sum(`Total Damage, Adjusted ('000 US$)`, na.rm = TRUE)
   )
-totdamage <- emdatclean %>%
+totdamage <- emdat %>%
   summarise(sum(`Total Damage, Adjusted ('000 US$)`, na.rm = TRUE))
 # Share damage:
 sharedamagegrav <- gravdamage / totdamage * 100
 # Share deaths:
-gravdeaths <- emdatclean %>%
+gravdeaths <- emdat %>%
   filter(`Disaster Type` %in% c("Mass movement (wet)", "Glacial lake outburst flood")) %>%
   summarise(
     total_deaths_filtered = sum(`Total Deaths`, na.rm = TRUE)
   )
-totaldeaths <- emdatclean %>%
+totaldeaths <- emdat %>%
   summarise(totaldeaths = sum(`Total Deaths`, na.rm = TRUE))
 sharedeathsgrav <- gravdeaths / totaldeaths * 100
 ```

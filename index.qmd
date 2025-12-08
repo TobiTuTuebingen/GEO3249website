@@ -62,10 +62,10 @@ gravdeaths <- emdat %>%
   )
 totaldeaths <- emdat %>%
   summarise(totaldeaths = sum(`Total Deaths`, na.rm = TRUE))
-sharedeathsgrav <- gravdeaths / totaldeaths * 100
+sharedeathsgrav <- round((gravdeaths / totaldeaths * 100), 2)
 ```
 
-Analyzing historical trends helps us to make better predictions for the future and evaluate hazard management. Despite huge year-to-year variability in casualties, since 1946 Switzerland has seen a decline in casualties from gravitational natural hazards. Between the 1960s and the 2010s the averaged yearly casualties have fallen from around 5 to 3 to 4. Especially pronounced was that decline regarding flooding. Considering both a significant increase in rockfall activity (PERMOS 2025, view below) and in population, the decline in casualties is a huge success for natural hazard management in Switzerland. The overall number of casualties of `r totcaus` since 1946 is quite low in Switzerland. Since 2000 around `r `gravdeaths` were caused by gravitational natural hazards, which is a percentage of `r sharedeathsgrav` of overall casualties due to natural hazards in Switzerland (Data from EmDat 2025). That proofs the strong resilience and effectiveness of natural hazard management in Switzerland.
+Analyzing historical trends helps us to make better predictions for the future and evaluate hazard management. Despite huge year-to-year variability in casualties, since 1946 Switzerland has seen a decline in casualties from gravitational natural hazards. Between the 1960s and the 2010s the averaged yearly casualties have fallen from around 5 to 3 to 4. Especially pronounced was that decline regarding flooding. Considering both a significant increase in rockfall activity (PERMOS 2025, view below) and in population, the decline in casualties is a huge success for natural hazard management in Switzerland. The overall number of casualties of `r totcaus` since 1946 is quite low in Switzerland. Since 2000 around `r gravdeaths` were caused by gravitational natural hazards, which is a percentage of `r sharedeathsgrav` % of overall casualties due to natural hazards in Switzerland (Data from EmDat 2025). That proofs the strong resilience and effectiveness of natural hazard management in Switzerland.
 
 ```{r plot1, echo = FALSE, message=FALSE}
 
